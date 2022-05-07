@@ -1,0 +1,43 @@
+@startuml
+!theme plain
+!include <awslib/AWSSimplified>
+
+<style>
+componentDiagram {
+  BackGroundColor white
+  LineThickness 1
+  LineColor #333333
+}
+document {
+  BackGroundColor white
+}
+</style>
+
+' skinparam monochrome true
+skinparam defaulttextalignment center
+
+skinparam sequence {
+    ArrowColor #333333
+}
+
+skinparam rectangle {
+    RoundCorner<< round20 >> 20
+    RoundCorner<< round30 >> 30
+    RoundCorner<< round40 >> 40
+    RoundCorner<< round50 >> 50
+}
+
+rectangle "Source\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
+rectangle "Source\n**secondary**\n//(a source for the secondary events)//" as sourcesecondary <<round20>> #8abded
+rectangle "Source\n**tertiary**\n//(a source for the tertiary events)//" as sourcetertiary <<round20>> #8abded
+
+rectangle "Logspout" as logspout #8cc97b
+rectangle "Papertrail" as papertrail #8cc97b
+
+sourceprimary -down-> logspout
+sourcesecondary -down-> logspout
+sourcetertiary -down-> logspout
+
+logspout -down-> papertrail
+
+@enduml
