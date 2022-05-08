@@ -1,6 +1,6 @@
 # Logspout Sandbox
 
-This repository contains basic **Logspout** configuration.
+This repository contains basic **Logspout** configuration examples.
 
 To run this example **Podman** installation and some other dependencies like **Papertrail** account is required.
 
@@ -12,7 +12,15 @@ More detailed documentation of the **[Logspout](https://github.com/gliderlabs/lo
 
 ## Diagram
 
-![](diagram/flow.svg)
+### Papertrail example
+
+#### Single Logspout
+
+![](diagram/one.svg)
+
+#### Grouping
+
+![](diagram/two.svg)
 
 ## Makefile
 
@@ -20,5 +28,5 @@ Use `Makefile` to run all the examples. To list all available options run `make`
 
 ## Instructions
 
-- Run `make up` to start everything up.
+- Run `make up-logspout-papertrail` or `up-logspout-grouping-papertrail` to start a specific example up.
 - Observe evens on the papertrail dashboard.

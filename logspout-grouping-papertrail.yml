@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  logspout-papertrail-primary:
+    image: gliderlabs/logspout:latest
+    container_name: ${BASE_NAME}-logspout-papertrail-primary
+    labels:
+      service.name: "logspout-papertrail-primary"
+    depends_on:
+      - ping-primary
+    environment:
+      - 'RAW_FORMAT={ "container" : "{{ .Container.Name }}", "labels": {{ toJSON .Container.Config.Labels }}, "timestamp": "{{ .Time.Format "2006-01-02T15:04:05Z07:00" }}", "source" : "{{ .Source }}", "message": {{ toJSON .Data }} }'
+    # This mount is critical to be done this way (mount is done from the podman VM instead of the host machine).
+    volumes:
+      - "/run/podman/podman.sock:/var/run/docker.sock:rw"
+    command: udp://logs.papertrailapp.com:<YOUR_PAPERTRAIL_PORT_NUMBER>?filter.labels=service.group:primary
+    privileged: true
+
+  logspout-papertrail-secondary-tertiary:
+    image: gliderlabs/logspout:latest
+    container_name: ${BASE_NAME}-logspout-papertrail-secondary-tertiary
+    labels:
+      service.name: "logspout-papertrail-secondary-tertiary"
+    depends_on:
+      - ping-secondary
+      - ping-tertiary
+    environment:
+      - 'RAW_FORMAT={ "container" : "{{ .Container.Name }}", "labels": {{ toJSON .Container.Config.Labels }}, "timestamp": "{{ .Time.Format "2006-01-02T15:04:05Z07:00" }}", "source" : "{{ .Source }}", "message": {{ toJSON .Data }} }'
+    # This mount is critical to be done this way (mount is done from the podman VM instead of the host machine).
+    volumes:
+      - "/run/podman/podman.sock:/var/run/docker.sock:rw"
+    command: udp://logs.papertrailapp.com:<YOUR_PAPERTRAIL_PORT_NUMBER>?filter.labels=service.group:secondary
+    privileged: true
+
+networks:
+  default:
+    name: ${NETWORK}

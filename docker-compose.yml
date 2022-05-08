@@ -9,6 +9,7 @@ services:
     container_name: ${BASE_NAME}-ping-primary
     labels:
       service.name: "ping-primary"
+      service.group: "primary"
     environment:
       - "NAME=ping-primary"
 
@@ -20,6 +21,7 @@ services:
     container_name: ${BASE_NAME}-ping-secondary
     labels:
       service.name: "ping-secondary"
+      service.group: "secondary"
     environment:
       - "NAME=ping-secondary"
 
@@ -31,25 +33,9 @@ services:
     container_name: ${BASE_NAME}-ping-tertiary
     labels:
       service.name: "ping-tertiary"
+      service.group: "secondary"
     environment:
       - "NAME=ping-tertiary"
-
-  logspout-papertrail:
-    image: gliderlabs/logspout:latest
-    container_name: ${BASE_NAME}-logspout-papertrail
-    labels:
-      service.name: "logspout-papertrail"
-    depends_on:
-      - ping-primary
-      - ping-secondary
-      - ping-tertiary
-    environment:
-      - 'RAW_FORMAT={ "container" : "{{ .Container.Name }}", "labels": {{ toJSON .Container.Config.Labels }}, "timestamp": "{{ .Time.Format "2006-01-02T15:04:05Z07:00" }}", "source" : "{{ .Source }}", "message": {{ toJSON .Data }} }'
-    # This mount is critical to be done this way (mount is done from the podman VM instead of the host machine).
-    volumes:
-      - "/run/podman/podman.sock:/var/run/docker.sock:rw"
-    command: udp://logs.papertrailapp.com:<YOUR_PAPERTRAIL_PORT_NUMBER>
-    privileged: true
 
 networks:
   default:

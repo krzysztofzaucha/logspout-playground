@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="323px" preserveAspectRatio="none" style="width:876px;height:323px;background:#FFFFFF;" version="1.1" viewBox="0 0 876 323" width="876px" zoomAndPan="magnify"><defs/><g><!--MD5=[b7a02f691e3c45f485681b2a91ea968a]
+cluster podman--><g id="cluster_podman"><rect fill="#D4E0B6" height="225" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="858" x="12" y="12.6885"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="102" x="390" y="35.1094">Podman</text></g><!--MD5=[3e7456bc247c8781287bc366de922c77]
+entity sourceprimary--><g id="elem_sourceprimary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="247" x="606.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="49" x="705.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="698.5" y="95.9805">primary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="227" x="616.5" y="112.2773">(a source of the primary events)</text></g><!--MD5=[cf586895d563e258b90aebb9608ec115]
+entity sourcesecondary--><g id="elem_sourcesecondary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="265" x="306.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="49" x="414.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="397.5" y="95.9805">secondary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="245" x="316.5" y="112.2773">(a source of the secondary events)</text></g><!--MD5=[111d468c44e6bcb556ceaf32144eae4c]
+entity sourcetertiary--><g id="elem_sourcetertiary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="243" x="28.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="49" x="125.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="118.5" y="95.9805">tertiary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="223" x="38.5" y="112.2773">(a source of the tertiary events)</text></g><!--MD5=[9430d1ccdf9167f5a1d15e55ab0b1fa2]
+entity logspoutprimary--><g id="elem_logspoutprimary"><rect fill="#8CC97B" height="36.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="157" x="621.5" y="185.6885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="137" x="631.5" y="208.6836">Logspout (primary)</text></g><!--MD5=[3772d454bfaa3123c404f8f1549216fd]
+entity logspoutsecondarytertiary--><g id="elem_logspoutsecondarytertiary"><rect fill="#8CC97B" height="36.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="237" x="320.5" y="185.6885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="217" x="330.5" y="208.6836">Logspout (secondary, tertiary)</text></g><!--MD5=[11acc497e4cd85c28c48dc39ffe097ee]
+entity papertrail--><g id="elem_papertrail"><rect fill="#8CC97B" height="36.2969" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="91" x="523.5" y="281.6885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="71" x="533.5" y="304.6836">Papertrail</text></g><!--MD5=[70d827d4966d5655bc7a887ff0ced7f7]
+link sourceprimary to logspoutprimary--><g id="link_sourceprimary_logspoutprimary"><path d="M720.836,125.9425 C716.037,143.6195 710.293,164.7745 706.053,180.3935 " fill="none" id="sourceprimary-to-logspoutprimary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="704.676,185.4645,710.8941,177.8267,705.9859,180.6391,703.1735,175.7309,704.676,185.4645" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[3115286798bcc6619248aaecedab021a]
+link sourcesecondary to logspoutsecondarytertiary--><g id="link_sourcesecondary_logspoutsecondarytertiary"><path d="M439,125.9425 C439,143.6195 439,164.7745 439,180.3935 " fill="none" id="sourcesecondary-to-logspoutsecondarytertiary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="439,185.4645,443,176.4645,439,180.4645,435,176.4645,439,185.4645" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[a28739d8b873045404b1cb321f464b32]
+link sourcetertiary to logspoutsecondarytertiary--><g id="link_sourcetertiary_logspoutsecondarytertiary"><path d="M237.887,125.7925 C287.616,144.8065 347.972,167.8835 389.512,183.7665 " fill="none" id="sourcetertiary-to-logspoutsecondarytertiary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="394.229,185.5705,387.2512,178.6199,389.5588,183.7847,384.394,186.0922,394.229,185.5705" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[9d56c2edbf0018d3f2fced5ccba7f636]
+link logspoutprimary to papertrail--><g id="link_logspoutprimary_papertrail"><path d="M676.277,221.7112 C654.065,237.6493 620.853,261.4809 597.275,278.3996 " fill="none" id="logspoutprimary-to-papertrail" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="592.989,281.4748,602.633,279.4766,597.051,278.5593,597.9683,272.9773,592.989,281.4748" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[df7f058cc96325d3a0e9418683ad5129]
+link logspoutsecondarytertiary to papertrail--><g id="link_logspoutsecondarytertiary_papertrail"><path d="M462.542,221.7112 C484.584,237.6493 517.543,261.4809 540.941,278.3996 " fill="none" id="logspoutsecondarytertiary-to-papertrail" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="545.194,281.4748,540.2429,272.9609,541.1417,278.5459,535.5567,279.4446,545.194,281.4748" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[139fd69d7376d249e8fc015717b6b478]
+@startuml
+!theme plain
+!include <awslib/AWSSimplified>
+
+<style>
+componentDiagram {
+  BackGroundColor white
+  LineThickness 1
+  LineColor #333333
+}
+document {
+  BackGroundColor white
+}
+</style>
+
+' skinparam monochrome true
+skinparam defaulttextalignment center
+
+skinparam sequence {
+    ArrowColor #333333
+}
+
+skinparam rectangle {
+    RoundCorner<< round20 >> 20
+    RoundCorner<< round30 >> 30
+    RoundCorner<< round40 >> 40
+    RoundCorner<< round50 >> 50
+}
+
+rectangle "Podman" as podman #d4e0b6 {
+rectangle "Source\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
+rectangle "Source\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
+rectangle "Source\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
+
+rectangle "Logspout (primary)" as logspoutprimary #8cc97b
+rectangle "Logspout (secondary, tertiary)" as logspoutsecondarytertiary #8cc97b
+}
+
+rectangle "Papertrail" as papertrail #8cc97b
+
+sourceprimary -down-> logspoutprimary
+sourcesecondary -down-> logspoutsecondarytertiary
+sourcetertiary -down-> logspoutsecondarytertiary
+
+logspoutprimary -down-> papertrail
+logspoutsecondarytertiary -down-> papertrail
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+
+
+hide stereotype
+
+
+
+
+
+<style>
+componentDiagram {
+  BackGroundColor white
+  LineThickness 1
+  LineColor #333333
+}
+document {
+  BackGroundColor white
+}
+</style>
+
+skinparam defaulttextalignment center
+
+skinparam sequence {
+    ArrowColor #333333
+}
+
+skinparam rectangle {
+    RoundCorner<< round20 >> 20
+    RoundCorner<< round30 >> 30
+    RoundCorner<< round40 >> 40
+    RoundCorner<< round50 >> 50
+}
+
+rectangle "Podman" as podman #d4e0b6 {
+rectangle "Source\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
+rectangle "Source\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
+rectangle "Source\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
+
+rectangle "Logspout (primary)" as logspoutprimary #8cc97b
+rectangle "Logspout (secondary, tertiary)" as logspoutsecondarytertiary #8cc97b
+}
+
+rectangle "Papertrail" as papertrail #8cc97b
+
+sourceprimary -down-> logspoutprimary
+sourcesecondary -down-> logspoutsecondarytertiary
+sourcetertiary -down-> logspoutsecondarytertiary
+
+logspoutprimary -down-> papertrail
+logspoutsecondarytertiary -down-> papertrail
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

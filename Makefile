@@ -21,8 +21,11 @@ compose:
 		-p ${BASE_NAME} \
 		up -d --build --force-recreate --remove-orphans --abort-on-container-exit
 
-up: ## Start the example
-	@COMPOSE=" -f docker-compose.yml" make compose
+up-logspout-papertrail: ## Start the Logspout with Papertrail example
+	@COMPOSE=" -f docker-compose.yml -f logspout-papertrail.yml" make compose
+
+up-logspout-grouping-papertrail: ## Start the Logspout grouping with Papertrail example
+	@COMPOSE=" -f docker-compose.yml -f logspout-grouping-papertrail.yml" make compose
 
 ###############
 # Danger Zone #
