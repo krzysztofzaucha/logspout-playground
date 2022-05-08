@@ -1,11 +1,11 @@
 version: "3.9"
 
 services:
-  logspout-papertrail-primary:
+  logspout-primary:
     image: gliderlabs/logspout:latest
-    container_name: ${BASE_NAME}-logspout-papertrail-primary
+    container_name: ${BASE_NAME}-logspout-primary
     labels:
-      service.name: "logspout-papertrail-primary"
+      service.name: "logspout-primary"
     depends_on:
       - ping-primary
     environment:
@@ -16,11 +16,11 @@ services:
     command: udp://logs.papertrailapp.com:<YOUR_PAPERTRAIL_PORT_NUMBER>?filter.labels=service.group:primary
     privileged: true
 
-  logspout-papertrail-secondary-tertiary:
+  logspout-secondary-tertiary:
     image: gliderlabs/logspout:latest
-    container_name: ${BASE_NAME}-logspout-papertrail-secondary-tertiary
+    container_name: ${BASE_NAME}-logspout-secondary-tertiary
     labels:
-      service.name: "logspout-papertrail-secondary-tertiary"
+      service.name: "logspout-secondary-tertiary"
     depends_on:
       - ping-secondary
       - ping-tertiary

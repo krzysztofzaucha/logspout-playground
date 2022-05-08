@@ -1,11 +1,11 @@
 version: "3.9"
 
 services:
-  logspout-papertrail:
+  logspout:
     image: gliderlabs/logspout:latest
-    container_name: ${BASE_NAME}-logspout-papertrail
+    container_name: ${BASE_NAME}-logspout
     labels:
-      service.name: "logspout-papertrail"
+      service.name: "logspout"
     depends_on:
       - ping-primary
       - ping-secondary
