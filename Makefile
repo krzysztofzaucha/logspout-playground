@@ -12,6 +12,20 @@ help: ## Prints help for targets with comments
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' ${MAKEFILE_LIST} | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-50s\033[0m %s\n", $$1, $$2}'
 	@echo ""
 
+#########
+# Build #
+#########
+
+clone:
+	@mkdir -p tmp/gliderlabs
+	@curl -Ls \
+	  -H "authorization: token ${GITHUB_TOKEN}" \
+	  -o tmp/gliderlabs/logspout.zip https://github.com/gliderlabs/logspout/archive/refs/heads/master.zip
+	@unzip -q tmp/gliderlabs/logspout.zip -d tmp/gliderlabs || true
+
+build: clone
+	@podman image build -t "${IMAGE_BASE_NAME}:latest" -f "logspout/Dockerfile" .
+
 #######
 # Run #
 #######
@@ -27,12 +41,18 @@ up-logspout-papertrail: ## Start the Logspout with Papertrail example
 up-logspout-grouping-papertrail: ## Start the Logspout grouping with Papertrail example
 	@COMPOSE=" -f docker-compose.yml -f logspout-grouping-papertrail.yml" make compose
 
+up-logspout-grafana: build ## Start the Logspout with Grafana example
+	@COMPOSE=" -f docker-compose.yml -f logspout-grafana.yml" make compose
+
 ###############
 # Danger Zone #
 ###############
 
 reset: ## Cleanup
-	@podman stop $(shell podman ps -aq)
-	@podman system prune
-	@podman volume rm $(shell podman volume ls -q)
-	@podman rmi -f ${IMAGE_BASE_NAME}-ping:latest
+	@podman stop $(shell podman ps -aq) || true
+	@podman system prune || true
+	@podman volume rm $(shell podman volume ls -q) || true
+	@podman rmi -f ${IMAGE_BASE_NAME}-ping:latest || true
+	@podman rmi -f ${IMAGE_BASE_NAME}-grafana:latest || true
+	@podman rmi -f ${IMAGE_BASE_NAME}-fluentd:latest || true || true
+	@podman rmi -f ${IMAGE_BASE_NAME}-logspout:latest

@@ -1,6 +1,6 @@
 # Logspout Sandbox
 
-This repository contains basic **Logspout** configuration examples.
+This repository contains a few basic **Logspout** configuration examples.
 
 To run this example **Podman** installation and some other dependencies like **Papertrail** account is required.
 
