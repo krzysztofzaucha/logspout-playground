@@ -22,7 +22,7 @@ More detailed documentation of the **[Logspout](https://github.com/gliderlabs/lo
 
 ![](diagram/two.svg)
 
-#### Grafana
+### Grafana example
 
 This example shows how to group and pass logs through to Grafana, so they can be viewed in the UI.
 
