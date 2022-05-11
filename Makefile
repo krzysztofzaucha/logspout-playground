@@ -16,7 +16,7 @@ help: ## Prints help for targets with comments
 # Build #
 #########
 
-clone:
+clone: clean
 	@mkdir -p tmp/gliderlabs
 	@curl -Ls \
 	  -H "authorization: token ${GITHUB_TOKEN}" \
@@ -25,6 +25,9 @@ clone:
 
 build: clone
 	@podman image build -t "${IMAGE_BASE_NAME}:latest" -f "logspout/Dockerfile" .
+
+clean:
+	@rm -R -f tmp
 
 #######
 # Run #
@@ -54,5 +57,5 @@ reset: ## Cleanup
 	@podman volume rm $(shell podman volume ls -q) || true
 	@podman rmi -f ${IMAGE_BASE_NAME}-ping:latest || true
 	@podman rmi -f ${IMAGE_BASE_NAME}-grafana:latest || true
-	@podman rmi -f ${IMAGE_BASE_NAME}-fluentd:latest || true || true
-	@podman rmi -f ${IMAGE_BASE_NAME}-logspout:latest
+	@podman rmi -f ${IMAGE_BASE_NAME}-fluentd:latest || true
+	@podman rmi -f ${IMAGE_BASE_NAME}-logspout:latest || true
