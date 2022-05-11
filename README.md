@@ -22,6 +22,12 @@ More detailed documentation of the **[Logspout](https://github.com/gliderlabs/lo
 
 ![](diagram/two.svg)
 
+#### Grafana
+
+This example shows how to group and pass logs through to Grafana, so they can be viewed in the UI.
+
+![](diagram/three.svg)
+
 ## Makefile
 
 Use `Makefile` to run all the examples. To list all available options run `make`.
