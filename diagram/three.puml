@@ -48,7 +48,7 @@ rectangle "**Source**\n**secondary**\n//(a source of the secondary events)//" as
 rectangle "**Source**\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
 
 rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers labeled `service.group:primary`)//" as logspoutprimary #d4e0b6
-rectangle "**LogSpout**\n**secondary**//(collects logs from all containers labeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
+rectangle "**LogSpout**\n**secondary**\n//(collects logs from all containers labeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
 }
 
 grafana -left-> mariadb
