@@ -35,5 +35,12 @@ Use `Makefile` to run all the examples. To list all available options run `make`
 
 ## Instructions
 
-- Run `make up-logspout-papertrail`, `up-logspout-grouping-papertrail` or `make up-logspout-grafana` to start a specific example up.
-- Observe evens on the papertrail dashboard.
+#### Papertrail
+
+- Run `make up-logspout-papertrail` or `up-logspout-grouping-papertrail` to start a specific example up.
+- Observe events on the **Papertrail** dashboard.
+
+#### Grafana
+
+- Run `make up-logspout-grafana` to start the whole stack.
+- Observe events on the **Grafana** dashboard ([localhost:3000](localhost:3000)).
