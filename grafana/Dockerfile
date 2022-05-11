@@ -1,8 +1,14 @@
 FROM grafana/grafana:master
 
-#ADD etc/grafana/grafana.ini /etc/grafana/grafana.ini
+USER root
+
+RUN apk add mysql-client
+
+ADD grafana/etc/grafana/grafana.ini /etc/grafana/grafana.ini
 ADD grafana/conf/provisioning/datasources/loki.yaml /etc/grafana/provisioning/datasources/loki.yaml
 ADD grafana/conf/defaults.ini /usr/share/grafana/conf/defaults.ini
-ADD entrypoint.sh /entrypoint.sh
+ADD grafana/entrypoint.sh /entrypoint.sh
+
+USER grafana
 
 ENTRYPOINT /entrypoint.sh
