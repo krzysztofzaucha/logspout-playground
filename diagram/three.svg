@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="703px" preserveAspectRatio="none" style="width:1163px;height:703px;background:#FFFFFF;" version="1.1" viewBox="0 0 1163 703" width="1163px" zoomAndPan="magnify"><defs/><g><!--MD5=[b7a02f691e3c45f485681b2a91ea968a]
+cluster podman--><g id="cluster_podman"><rect fill="#FFFFFF" height="564" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="1145" x="12" y="12.6885"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="102" x="533.5" y="35.1094">Podman</text></g><!--MD5=[fb005de1c6cbfeb3c47b9f1813e2e975]
+entity mariadb--><g id="elem_mariadb"><path d="M173,479.1885 C173,469.1885 251,469.1885 251,469.1885 C251,469.1885 329,469.1885 329,479.1885 L329,534.4854 C329,544.4854 251,544.4854 251,544.4854 C251,544.4854 173,544.4854 173,534.4854 L173,479.1885 " fill="#F5D0C4" style="stroke:#333333;stroke-width:1.0;"/><path d="M173,479.1885 C173,489.1885 251,489.1885 251,489.1885 C251,489.1885 329,489.1885 329,479.1885 " fill="none" style="stroke:#333333;stroke-width:1.0;"/><image height="30" width="102" x="200" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAAeCAIAAABRzPyZAAADGElEQVR4Xu2ZsY7UMBRF5z+gmQ7RUSBRb0GLhCiptqOiiERHtSUN0lQUdJGQqEF8APsBNHwCn5Cei+/O1Vvf2EmGyWwyWulqlDw/O/Hx87Od2XS/ru9Q118+bx8+gLxosdq4aVa9fH5BRtTV2zf3yIr6/f0r0LQfrqKay9f4ffL4kfsvVidCBi6IL2JiWJEXkd1HWY8unj3N4mv3/h3Eeer+S9YpkPl8FDWgdP+Fa3ZkyFMOC7p89QLLpfsvX3eDjLPSnVeheZGVpuTq8lfUjMi0ILqQ9d1/LZoRWSnEoD8/f7j/WjQXsgovJH73X5FmQVbh1Z4kkc0axUdGhn2WdvklOTKcpbypLp0Z3DhGyKFudOGEy4Qrffv0MTpgGxRLaTwOMoIYhEVlr9WVe1iyH0tAlsUjIeoWyLQZwriy6HBkaIunxZGkqN5EhlfxQAPZXmSwC7o6zIt2H5U+MXtrOTIaIV5HZN1+CCcjw9YUmJrC7mFQPivbtIA6HT4iosTbw4hucMBjRHDi6DgRW6ObarXpc4CKHFms/r/IpgZUrxwZhxS/kQ4igu+qAde8iD4RWey87PBRCxS583oMMo2NjKOQtemTlvd/qkDcz5Wx2xVjxqteWrJnxjHIgBg+GDAF9TAywEI17/8B8hDrbneAgYYXVWiM7PysyGRn0A0gO0pwUdh/1JHp2i2ZcbC0ZM+MU5GxqIYMzaFR73xFaDELSSyRvODy6k+JveLjYvZRaZu+f5TqlpChqWxPE3NiL7ImpMUMGTtYQ1bfxPcqq7JLHxFlH0RWv21SJuY1c/8gMl6r2+3+6zlvOUJoiq/KophtmSJ26VOVKhaRHcCrNWSMLBn9GyzGMxvnbH3AbXRgjKhjcvZa2S1rKVfKLqHIIw4WOaj0BhmmDzdcVHN728U0BAcix2/8bw12OKi6au3SXpd/LGm2bvsCbV3a1BdEoMxiviQMQkST0RHfc0DW7f+OdV5TuxcbmVp3RfqHLOPFCeXLU11xO7JNU9t9zkM3yKI8Cw4Kiw7PUmzBz9jnpOKKOUkkteov+uP1F3IqS9MAX1zJAAAAAElFTkSuQmCC" y="493.1885"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="136" x="183" y="536.1836">(grafana database)</text></g><!--MD5=[7b9a9086a478fe329238ed6ac6c7c115]
+entity cassandra--><g id="elem_cassandra"><path d="M184.5,324.6885 C184.5,314.6885 247,314.6885 247,314.6885 C247,314.6885 309.5,314.6885 309.5,324.6885 L309.5,382.9854 C309.5,392.9854 247,392.9854 247,392.9854 C247,392.9854 184.5,392.9854 184.5,382.9854 L184.5,324.6885 " fill="#F5D0C4" style="stroke:#333333;stroke-width:1.0;"/><path d="M184.5,324.6885 C184.5,334.6885 247,334.6885 247,334.6885 C247,334.6885 309.5,334.6885 309.5,324.6885 " fill="none" style="stroke:#333333;stroke-width:1.0;"/><image height="33" width="51" x="221.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAhCAIAAAD73QTtAAADU0lEQVR4XsWYMY4UMRBF9ziIzAESMQEpEiIkmoyIAImMaEMSJCICMiQkYhAHYA9AskfYIzjnrx/9t6bK09M7uwjpq+W23eXncrnsmbP+++Kf6urXz1q5RWe16gRdfP2s58d3b79/+hDrL398i6/qQMG4fDjVXcmE8uX9+fOnT548fqSB28MHUaoRhArqyTOKGn2op4yk1hPJNNcEcVSix1Vvdi/7AtQKtLpRuB1Z8oqsy5AqKSSpUh49f/0qIfaBooX20/Zd1hy2kmmYSLN78UyiibK8SEEuoRD7aLEkvUZE5okjaaKzJtO3+Awm9SacGU/OYFRe1SQyxubpPqyOhlcfSa01HBF9zLdGptmbybuMUQkaNamskbzp+Ar/uTP1GDGfVOHi1j5I1sbCaQybo57B6sBVtBLvfZ8MiYNApJA+n5DhbXVNhuJ4uxFY3m5VaiXg/GElI05kxH2iMhlendqi0mSgHyIjyKZLacUIqxb2yIgqv07J+oDjFc/VPK5WNcklzp8rWBIxk4zckLWRXdIAUzjTs17pkz6IvXl72JhTLNFHd1h/yeLmikoW7XZcwth6yjRNAJE4DhmJAaP+HAYV4JpsusyoTted2U3kJ0LKmcz7sR/AkmIfbCaMs3qUViXrl/uLDo3hDn0Yl88+W9G1z9jhce2rdiPqo1Y83QNTOvv1FWniKFzOGklX4w4DWaSMGbiKVBeBOBUiDXFSR7SOkLVwYnAkyKJP96NSCMJEVKVtuO71NTLufZRjwLaR9kgZbTnE2kg6mgZMRIjDzreutAdX4NbIppItvMjs25LB27JSFHgaiA8pxISyoluTOTjkj4tx8/ErBZiqMyLlFt2aLMp+iiJz9v0A6OHk2Kg7kU03l3fM9pCa6nSyeqO6X51ONtXUi1FknFpfdc9kR0WWqfVV/4FsYxjkmyNKr05RqczsOQQRUd9GkjtkSk1kZp9X8VCZkHHS+bWNGzoFCNyazmMGS4X4STwxKXCBIOXysyO2ohsyo6ROLXiiLWtBWYi2a9x4yaHQlku8wz/ug7bc1bBJZU9kNDAVG429W4jfNiZtT7unawxNTx+pyWwbZLEV3ZD5pzM7P1rxay07niiYo4dFxEP85+A+zi+0+oexef4A1Y9Bc1LgEPgAAAAASUVORK5CYII=" y="338.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="105" x="194.5" y="384.6836">(loki database)</text></g><!--MD5=[97029dda41c7f1332efacff3a5502fd8]
+entity grafana--><g id="elem_grafana"><rect fill="#D4E0B6" height="107.5938" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="158" x="364" y="452.6885"/><image height="55" width="51" x="417.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA3CAIAAAAuUuVrAAACsElEQVR4XtWZMW4VMRCG31k5AMWrEBUV6SgoqBAdTWqE0iNxAOQDcBQmTBgm843H9nr1ENJXROt/xt96134vyaX9/Hou11cv3n14zeurXHhpB9EyOLrEmWZea1/uNDNqXfce6zlmYkCtzWU7x4xCxuFlO8Hs/st7CpGg6IfYs22acfpjpOtamT18+/Tx81spE+RnP8Tum3D2xIxlN4Aa0ezN3UuW3YDbmekL8P3HvTCzRcZmxck0hN1TWCjIioRYNJNbZFkNm87APrLbfCCapTUFLF+i6LZlxtoD9HoeN2PhYfzLbc80MWsTcizZxMvplSNmzJ+C9ddly818jjCcIhOEQjnYGPP4KZbNmCSsCoRPYda2082WDmqWtz/zyuqumck5zKRx4JMtXTwdys16czBp9Fard90IR3+rzVivMNkrYaBle0Lho7j2zGTNSPrNM80zUITTErmSmMkdsFJI3wlr1Jsjhc1DoaxCNGNBWukR42GGDPs/M2O6qDTk/oYZ4u9HCW/LXzOqBNg9FBaPO6We4smMIcIdFGo5VMMp/OijGRMpPHgUua6BnnoPKzT86IJZqPToaHGspMhHUNH/wukL2F0ZBlIGa6a/gk9SvOOW4VAP9vejj0+TiQJOoMijGWYCbO5rn/am/f1iSLFsMuST4mp/GUk3B5srOvrspGUohXN4eJPMtHIuDcRPJ7k5RglnWoU9Q/9oZoRHQ1gyD7uxeddspgXzM7APaUOzYSPma9iBaHJsNvPmsSqFhYbsm7Drx2bt93aboffrpJ4dBSxpk2ZtWu4A6VHX/rlZcW5Pmcltsek+hVabNJMXiH034SyB/9xsuLlW6e1iz5RZ6+8A21lL68r+5LhZb7cbxb5hmMyayZLo9y0OFei/KQLDW1JmzXYIZgyk3MJMWdISfgFpcEe7wJWk6gAAAABJRU5ErkJggg==" y="462.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="410" y="530.6836">Grafana</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="138" x="374" y="546.9805">(UI to view the logs)</text></g><!--MD5=[24ae6a5474e916cd85c833de88942229]
+entity loki--><g id="elem_loki"><rect fill="#D4E0B6" height="52.5938" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="197" x="344.5" y="327.1885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="426.5" y="350.1836">Loki</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="177" x="354.5" y="366.4805">(log aggregation system)</text></g><!--MD5=[272b21477ce7f2b0fbed403921b28491]
+entity fluentd--><g id="elem_fluentd"><rect fill="#D4E0B6" height="52.5938" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="349" x="576.5" y="327.1885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="720.5" y="350.1836">Fluentd</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="329" x="586.5" y="366.4805">(intermediate service used to pass logs to loki)</text></g><!--MD5=[3e7456bc247c8781287bc366de922c77]
+entity sourceprimary--><g id="elem_sourceprimary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="247" x="773.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="869.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="865.5" y="95.9805">primary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="227" x="783.5" y="112.2773">(a source of the primary events)</text></g><!--MD5=[cf586895d563e258b90aebb9608ec115]
+entity sourcesecondary--><g id="elem_sourcesecondary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="265" x="390.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="495.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="481.5" y="95.9805">secondary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="245" x="400.5" y="112.2773">(a source of the secondary events)</text></g><!--MD5=[111d468c44e6bcb556ceaf32144eae4c]
+entity sourcetertiary--><g id="elem_sourcetertiary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="243" x="112.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="206.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="202.5" y="95.9805">tertiary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="223" x="122.5" y="112.2773">(a source of the tertiary events)</text></g><!--MD5=[9430d1ccdf9167f5a1d15e55ab0b1fa2]
+entity logspoutprimary--><g id="elem_logspoutprimary"><rect fill="#D4E0B6" height="68.8906" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="488" x="653" y="185.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="858.5" y="208.6836">LogSpout</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="865.5" y="224.9805">primary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="468" x="663" y="241.2773">(collects logs from all containers labeled `service.group:primary`)</text></g><!--MD5=[a145708ea756fcd68d9c3d1092ac9545]
+entity logspoutsecondary--><g id="elem_logspoutsecondary"><rect fill="#D4E0B6" height="52.5938" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="589" x="28.5" y="193.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="284.5" y="216.6836">LogSpout</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="38.5" y="232.9805">secondary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="486" x="121.5" y="232.9805">(collects logs from all containers labeled `service.group:secondary`)</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><g id="elem_user"><ellipse cx="503" cy="629.6885" fill="#FFFFFF" rx="8" ry="8" style="stroke:#333333;stroke-width:1.0;"/><path d="M503,637.6885 L503,664.6885 M490,645.6885 L516,645.6885 M503,664.6885 L490,679.6885 M503,664.6885 L516,679.6885 " fill="none" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="31" x="487.5" y="694.6836">User</text></g><!--MD5=[7e96e389324513f59f0469e2a1ed6ddb]
+entity grafanaui--><g id="elem_grafanaui"><ellipse cx="443" cy="659.1885" fill="#FFFFFF" rx="8" ry="8" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="73" x="406.5" y="689.1836">Grafana UI</text></g><!--MD5=[0d670bdc34f97218803734b58966db38]
+reverse link mariadb to grafana--><g id="link_mariadb_grafana"><path d="M334.514,534.3375 C344.341,535.0865 354.168,534.9515 363.995,533.9325 " fill="none" id="mariadb-backto-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="329.375,533.8655,337.9715,538.6717,334.3541,534.3227,338.703,530.7052,329.375,533.8655" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[9d5c330da2f3c7a421ed843f4bb54b83]
+link mariadb to grafana--><g id="link_mariadb_grafana"><path d="M329.375,479.5115 C339.202,478.4545 349.029,478.2815 358.856,478.9925 " fill="none" id="mariadb-to-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="363.995,479.4445,355.3806,474.6704,359.0143,479.0058,354.6788,482.6395,363.995,479.4445" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[9fcef25722767cecf12e2d6ccd39d7ec]
+reverse link cassandra to loki--><g id="link_cassandra_loki"><path d="M314.863,380.1725 C334.852,383.8415 354.841,383.8605 374.829,380.2285 " fill="none" id="cassandra-backto-loki" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="309.781,379.1605,317.8259,384.842,314.6846,380.1375,319.3891,376.9962,309.781,379.1605" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[5cb52f66c25f2f66ee3f98f26ed7675d]
+link cassandra to loki--><g id="link_cassandra_loki"><path d="M309.781,328.2165 C329.77,323.9285 349.759,323.2905 369.748,326.3035 " fill="none" id="cassandra-to-loki" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="374.829,327.1485,366.607,321.7264,369.8967,326.3283,365.2948,329.618,374.829,327.1485" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[70d827d4966d5655bc7a887ff0ced7f7]
+link sourceprimary to logspoutprimary--><g id="link_sourceprimary_logspoutprimary"><path d="M897,125.8885 C897,142.5375 897,162.7215 897,180.0515 " fill="none" id="sourceprimary-to-logspoutprimary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="897,185.3305,901,176.3305,897,180.3305,893,176.3305,897,185.3305" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[6a1cdbcd822bc57d36a81c3819147fe0]
+link sourcesecondary to logspoutsecondary--><g id="link_sourcesecondary_logspoutsecondary"><path d="M470.191,125.7225 C438.312,145.9655 398.132,171.4795 367.81,190.7345 " fill="none" id="sourcesecondary-to-logspoutsecondary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="363.41,193.5285,373.1517,192.0794,367.6305,190.8476,368.8623,185.3265,363.41,193.5285" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[be77ef1f20618280c0f647171afc4fe9]
+link sourcetertiary to logspoutsecondary--><g id="link_sourcetertiary_logspoutsecondary"><path d="M257.617,125.8885 C271.405,145.5645 288.653,170.1765 301.971,189.1815 " fill="none" id="sourcetertiary-to-logspoutsecondary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="304.923,193.3925,303.0324,183.7268,302.053,189.2982,296.4816,188.3188,304.923,193.3925" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[0e4acb72a37dba4ad075055026cfc41c]
+link logspoutprimary to fluentd--><g id="link_logspoutprimary_fluentd"><path d="M859.78,254.7115 C836.14,276.0035 805.85,303.2865 783.238,323.6515 " fill="none" id="logspoutprimary-to-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="779.394,327.1145,788.7582,324.063,783.109,323.7681,783.404,318.1189,779.394,327.1145" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[edf2977da53771e5f912cb1f941d7847]
+link logspoutsecondary to fluentd--><g id="link_logspoutsecondary_fluentd"><path d="M406.03,246.6985 C479.89,269.3915 587.569,302.4755 662.92,325.6265 " fill="none" id="logspoutsecondary-to-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="667.836,327.1375,660.4076,320.6707,663.0565,325.6691,658.0581,328.3179,667.836,327.1375" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[02d60668607db911ddb863b82f469c06]
+reverse link loki to fluentd--><g id="link_loki_fluentd"><path d="M546.815,353.6885 C556.68,353.6885 566.545,353.6885 576.411,353.6885 " fill="none" id="loki-backto-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="541.656,353.6885,550.656,357.6885,546.656,353.6885,550.656,349.6885,541.656,353.6885" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[3fdc2fb758ab6ccb3fbd7087c256e943]
+link loki to grafana--><g id="link_loki_grafana"><path d="M433.146,380.3035 C430.593,398.6865 429.728,424.2115 430.55,447.4365 " fill="none" id="loki-to-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="430.766,452.6625,434.3923,443.5055,430.5603,447.6667,426.3991,443.8347,430.766,452.6625" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[4b590bb5f179e265506513e580afffa5]
+reverse link loki to grafana--><g id="link_loki_grafana"><path d="M454.138,385.5775 C456.47,404.8705 457.075,430.2235 455.954,452.6625 " fill="none" id="loki-backto-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="453.434,380.3035,450.6598,389.7535,454.0955,385.2595,458.5895,388.6952,453.434,380.3035" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[e3946928cfa079c413c05f514c7e4f0a]
+reverse link grafana to grafanaui--><g id="link_grafana_grafanaui"><path d="M430.547,565.8485 C429.416,597.8758 431.514,634.2644 436.84,650.107 " fill="none" id="grafana-backto-grafanaui" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="430.756,560.7495,426.3917,569.5786,430.5518,565.7453,434.385,569.9054,430.756,560.7495" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[6df118db340877fb40dd8bfd94026a8a]
+link grafana to grafanaui--><g id="link_grafana_grafanaui"><path d="M455.964,560.7495 C457.469,591.0725 455.804,626.6756 450.97,645.3173 " fill="none" id="grafana-to-grafanaui" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="449.522,650.107,455.955,642.6493,450.9687,645.3208,448.2972,640.3346,449.522,650.107" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[1f1040136ba496fe1836329e447e5a94]
+reverse link grafanaui to user--><g id="link_grafanaui_user"><path d="M457.269,664.0826 C467.24,666.4351 477.21,666.5511 487.18,664.4305 " fill="none" id="grafanaui-backto-user" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="452.375,662.7481,460.007,668.9733,457.1992,664.0624,462.11,661.2546,452.375,662.7481" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[7e12d94622f6f79fc642ecaa7f419668]
+link grafanaui to user--><g id="link_grafanaui_user"><path d="M452.375,655.6289 C462.254,652.5725 472.134,651.7121 482.013,653.0478 " fill="none" id="grafanaui-to-user" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="487.18,653.9465,478.9989,648.4628,482.254,653.0893,477.6275,656.3444,487.18,653.9465" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[28e836a604932dd918727eb5f05095ce]
+@startuml
+!theme plain
+!include <logos/mariadb>
+!include <logos/grafana>
+!include <logos/cassandra>
+!include <awslib/AWSSimplified>
+
+<style>
+componentDiagram {
+  BackGroundColor white
+  LineThickness 1
+  LineColor #333333
+}
+document {
+  BackGroundColor white
+}
+</style>
+
+' skinparam monochrome true
+skinparam defaulttextalignment center
+
+skinparam sequence {
+    ArrowColor #333333
+}
+
+skinparam rectangle {
+    RoundCorner<< round20 >> 20
+    RoundCorner<< round30 >> 30
+    RoundCorner<< round40 >> 40
+    RoundCorner<< round50 >> 50
+}
+
+actor "User" as user
+
+interface "Grafana UI" as grafanaui
+
+rectangle "Podman" as podman {
+database "<$mariadb>\n//(grafana database)//" as mariadb #f5d0c4
+database "<$cassandra>\n//(loki database)//" as cassandra #f5d0c4
+
+rectangle "<$grafana>\n**Grafana**\n//(UI to view the logs)//" as grafana #d4e0b6
+rectangle "**Loki**\n//(log aggregation system)//" as loki #d4e0b6
+
+rectangle "**Fluentd**\n//(intermediate service used to pass logs to loki)//" as fluentd #d4e0b6
+
+rectangle "**Source**\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
+rectangle "**Source**\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
+rectangle "**Source**\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
+
+rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers labeled `service.group:primary`)//" as logspoutprimary #d4e0b6
+rectangle "**LogSpout**\n**secondary**//(collects logs from all containers labeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
+}
+
+grafana -left-> mariadb
+grafana <-left- mariadb
+
+loki -left-> cassandra
+loki <-left- cassandra
+
+sourceprimary -down-> logspoutprimary
+sourcesecondary -down-> logspoutsecondary
+sourcetertiary -down-> logspoutsecondary
+
+logspoutprimary -down-> fluentd
+logspoutsecondary -down-> fluentd
+
+fluentd -left-> loki
+
+loki -down-> grafana
+loki <-down- grafana
+
+grafanaui -up-> grafana
+grafanaui <-up- grafana
+
+user -left-> grafanaui
+user <-left- grafanaui
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+sprite $mariadb [102x30/16] {
+0000000000000000000000000000000000000000003DD000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000ADDDD7DD000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000002D5555585C000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000005A55DD5885D000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000B5555566AD0000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000D55555556B00000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000C555555593000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000C555555660000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000D5555555D00000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000885555555A00000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000D55555555100000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000D555555559000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000D555555555D000000000000000000000000000000001000000000000000000000000000000
+00000000000000000000000000BA5555555555D000002000000050000000000000000008000000000000788888400003888800
+000000000000000000000005DA5555555555554000008000000080000000000000000000000000000000710000780003600280
+00000000000000000006DDA5555555555555590000008200000480000004400100105001000004400100710000077003600080
+0000000000000000CD8555555555555555555D0000051800000852000683287800883008000783285800710000008003600080
+00000000000000DA555555555555555555555D0000070720004607002800004800810008004700006800710000008003878800
+0000000000005C5555555555555555555555A30000080080008008008000000800800008008000000800710000008003612780
+00000000000C655555555555555555555555D00000080072037008008000000800800008008000000800710000008003600038
+0000000000C555555555555555555555555BD00000080008080008008000000800800008008000000800710000008003600008
+00000000017555555555555555865555955DD00000080007570008005600000800800008007400002800710000081003600058
+000000000D5555555555555555D55556B5D5D00000080000800008000870048800800008000860058800754568830003766880
+00000000D55555555555555555D5555DDD55B00000110000300003100028830300300003000038820300333321000001333100
+009CDDD85555BDC767ADDDCBCDD5556D2D655D0000000000000000000000000000000000000000000000000000000000000000
+C655555555980000000000001D6555D000DDDD0000000000000000000000000000000000000000000000000000000000000000
+0AD555555D000000000000000D555D000000000000000000000000000000000000000000000000000000000000000000000000
+0D55556D6000000000000000C555D8000000000000000000000000000000000000000000000000000000000000000000000000
+0DDDDD100000000000000004A5DD20000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000DDA0000000000000000000000000000000000000000000000000000000000000000000000000000
+}
+sprite $grafana [51x55/16] {
+000000000000000000000000000750000000000000000000000
+000000000000000000000000007777000000000000000000000
+000000000000000000000000077777700000000000000000000
+000000000000000000000000777777750000000000000000000
+000000000000000000000005777777770000000000000000000
+000000000000000000000007777777775000000000000000000
+000000000000000000000037777777777775000077770000000
+000000000000000000007777777777777777777777775000000
+000000000245520000777777777777777777777777777000000
+000000777777777777777777777777777777777777777000000
+000006777777777777777777777777777777777777777000000
+000006777777777777777777777775211377777777777000000
+000005777777777777777777700000000000007777777600000
+000001777777777777777760000000000000000077777740000
+000000777777777777777000000000000000000000777770000
+000000777777777777770000000000000000000000077777000
+000000777777777777700000000000000000000000005777400
+000000077777777777000000000000000000000000000577700
+000000077777777770000000000000000000000000000077740
+000000007777777770000000000000477777300000000007770
+000000007777777700000000000077777777777200000000770
+000000007777777700000000005777777777777770000000773
+000000007777777100000000067777777777777777200000077
+000000067777777000000000577777775777777777740000077
+000000077777777000000000777770000000477777771000007
+000000066666665000000006666600000000006666666000006
+000000166666662000000006666000000000000666666600005
+000006666666660000000026660000000000000066666600000
+000066666666660000000056660000000000000026666650000
+000666666666660000000066620000000000000006666660000
+006666666666661000000066600000000000000006666660000
+066666666666664000000046610000000000000004666660000
+066666666666666000000006650000000000000003666660000
+666666666666666000000006660000000000000004666660000
+555555555555555200000000555000000000000005555550000
+055555555555555500000000355500000000000005555555000
+004555555555555520000000025555324510000005555555500
+000055555555555550000000000455555000000055555555500
+000001555555555555000000000000000000000055555555550
+000000002555555555500000000000000000000555555555550
+000000000055555555550000000000000000005555555555550
+000000000005555555555000000000000000055555555555500
+000000000001555555555550000000000000555555555420000
+000000000000444444444444430000000244444444440000000
+000000000000044444444444444444444444444444410000000
+000000000000044444444444444444444444444444200000000
+000000000000144444444444444444444444444442000000000
+000000000000344444444444444444444444444400000000000
+000000000000344444444444444444444444444400000000000
+000000000000244444444444444444444444444300000000000
+000000000000044444444100344444444444444000000000000
+000000000000044444410000000000144444444000000000000
+000000000000033200000000000000013333331000000000000
+000000000000000000000000000000000333330000000000000
+000000000000000000000000000000000003300000000000000
+}
+sprite $cassandra [51x33/16] {
+000000000000000000000000000000001000000000000000000
+000000000000000000000003064000020000600100300000000
+00000000000000000000045AB6CCCCC61C0C00000C0B0500000
+0000000000000000003CCCCCCCCCCCCCCCCA1080B0C0C000A00
+0000000000000006CCCCBA6BAAAAAAB47CCCCC0C2C2C000C001
+0000000000000BCCBA9900993998999900559CCCC6C109C0070
+00000000000BC7209949099235959949A012256CCCCCCC12C00
+0000000008C7220099A1796600083909900222255CCCCCC4000
+00000000CB32220099909900000000998002222224474400000
+0000006C422222009993A10000000389200222222BCA2000000
+00000CC0022222009994210000000499002222222CCC1000000
+0000C7000222220009209330000029B500222222CCCC3200000
+000C20000222222007008900002094900122222CCCC57000000
+0060000000222221009B909710495900022222CC004B0600000
+0100000000122222100405699599800022222CCC80001010000
+50000000000022222200009999500002222CCC5C00000000000
+038CCCCCCCCCC92222210000000002223CCCC1A2C0000000000
+00000000001CC9CCC932222222223ACCCC39C00012000000000
+0000000000C400B31BCCCCCCCCCCCCC63980570001000000000
+00000000061008000C789CB3C24CC38500A0060000100000000
+000000000000000014070C10C00C0C0A0001009000000000000
+000000000000000020053500500C0100000A000000000000000
+00000000000000000000C000000B00800007000000000000000
+000000000000000000002000000400600001000000000000000
+000000000000000000040000000000000000000000000000000
+0000000000000000000000000020000000000BC000000000000
+0000000000000000000000000000000000000CB000000000000
+0000000000000000000000000000000000000C4000000000000
+0000CCC00CCCC0CCC0CCB02CCC60C1CC00CCCC13C9C0BCCC000
+000AC000CA0CB0C002C000C10C10CB0C09C00C08C906C00C000
+000CA000C00C60CC40CC26C02C05C00C0C70BC0BC00C80CC000
+000CC090C0CC000CB00C9AC0CC0AC06C0C94CC0CC00C84CC000
+0006CC20CC0C0CCC0CCC01CC1C0C909C0BCA9C0C200BC5CC000
+}
+
+
+hide stereotype
+
+
+
+
+
+<style>
+componentDiagram {
+  BackGroundColor white
+  LineThickness 1
+  LineColor #333333
+}
+document {
+  BackGroundColor white
+}
+</style>
+
+skinparam defaulttextalignment center
+
+skinparam sequence {
+    ArrowColor #333333
+}
+
+skinparam rectangle {
+    RoundCorner<< round20 >> 20
+    RoundCorner<< round30 >> 30
+    RoundCorner<< round40 >> 40
+    RoundCorner<< round50 >> 50
+}
+
+actor "User" as user
+
+interface "Grafana UI" as grafanaui
+
+rectangle "Podman" as podman {
+database "<$mariadb>\n//(grafana database)//" as mariadb #f5d0c4
+database "<$cassandra>\n//(loki database)//" as cassandra #f5d0c4
+
+rectangle "<$grafana>\n**Grafana**\n//(UI to view the logs)//" as grafana #d4e0b6
+rectangle "**Loki**\n//(log aggregation system)//" as loki #d4e0b6
+
+rectangle "**Fluentd**\n//(intermediate service used to pass logs to loki)//" as fluentd #d4e0b6
+
+rectangle "**Source**\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
+rectangle "**Source**\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
+rectangle "**Source**\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
+
+rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers labeled `service.group:primary`)//" as logspoutprimary #d4e0b6
+rectangle "**LogSpout**\n**secondary**//(collects logs from all containers labeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
+}
+
+grafana -left-> mariadb
+grafana <-left- mariadb
+
+loki -left-> cassandra
+loki <-left- cassandra
+
+sourceprimary -down-> logspoutprimary
+sourcesecondary -down-> logspoutsecondary
+sourcetertiary -down-> logspoutsecondary
+
+logspoutprimary -down-> fluentd
+logspoutsecondary -down-> fluentd
+
+fluentd -left-> loki
+
+loki -down-> grafana
+loki <-down- grafana
+
+grafanaui -up-> grafana
+grafanaui <-up- grafana
+
+user -left-> grafanaui
+user <-left- grafanaui
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

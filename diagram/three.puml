@@ -1,0 +1,77 @@
+@startuml
+!theme plain
+!include <logos/mariadb>
+!include <logos/grafana>
+!include <logos/cassandra>
+!include <awslib/AWSSimplified>
+
+<style>
+componentDiagram {
+  BackGroundColor white
+  LineThickness 1
+  LineColor #333333
+}
+document {
+  BackGroundColor white
+}
+</style>
+
+' skinparam monochrome true
+skinparam defaulttextalignment center
+
+skinparam sequence {
+    ArrowColor #333333
+}
+
+skinparam rectangle {
+    RoundCorner<< round20 >> 20
+    RoundCorner<< round30 >> 30
+    RoundCorner<< round40 >> 40
+    RoundCorner<< round50 >> 50
+}
+
+actor "User" as user
+
+interface "Grafana UI" as grafanaui
+
+rectangle "Podman" as podman {
+database "<$mariadb>\n//(grafana database)//" as mariadb #f5d0c4
+database "<$cassandra>\n//(loki database)//" as cassandra #f5d0c4
+
+rectangle "<$grafana>\n**Grafana**\n//(UI to view the logs)//" as grafana #d4e0b6
+rectangle "**Loki**\n//(log aggregation system)//" as loki #d4e0b6
+
+rectangle "**Fluentd**\n//(intermediate service used to pass logs to loki)//" as fluentd #d4e0b6
+
+rectangle "**Source**\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
+rectangle "**Source**\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
+rectangle "**Source**\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
+
+rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers labeled `service.group:primary`)//" as logspoutprimary #d4e0b6
+rectangle "**LogSpout**\n**secondary**//(collects logs from all containers labeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
+}
+
+grafana -left-> mariadb
+grafana <-left- mariadb
+
+loki -left-> cassandra
+loki <-left- cassandra
+
+sourceprimary -down-> logspoutprimary
+sourcesecondary -down-> logspoutsecondary
+sourcetertiary -down-> logspoutsecondary
+
+logspoutprimary -down-> fluentd
+logspoutsecondary -down-> fluentd
+
+fluentd -left-> loki
+
+loki -down-> grafana
+loki <-down- grafana
+
+grafanaui -up-> grafana
+grafanaui <-up- grafana
+
+user -left-> grafanaui
+user <-left- grafanaui
+@enduml
