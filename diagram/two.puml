@@ -27,16 +27,16 @@ skinparam rectangle {
     RoundCorner<< round50 >> 50
 }
 
-rectangle "Podman" as podman #d4e0b6 {
-rectangle "Source\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
-rectangle "Source\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
-rectangle "Source\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
+rectangle "Podman" as podman {
+rectangle "**Source**\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
+rectangle "**Source**\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
+rectangle "**Source**\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
 
-rectangle "Logspout (primary)" as logspoutprimary #8cc97b
-rectangle "Logspout (secondary, tertiary)" as logspoutsecondarytertiary #8cc97b
+rectangle "**Logspout**\n//(primary)//" as logspoutprimary #d4e0b6
+rectangle "**Logspout**\n//(secondary//, tertiary)" as logspoutsecondarytertiary #d4e0b6
 }
 
-rectangle "Papertrail" as papertrail #8cc97b
+rectangle "**Papertrail**" as papertrail #d4e0b6
 
 sourceprimary -down-> logspoutprimary
 sourcesecondary -down-> logspoutsecondarytertiary
@@ -44,5 +44,4 @@ sourcetertiary -down-> logspoutsecondarytertiary
 
 logspoutprimary -down-> papertrail
 logspoutsecondarytertiary -down-> papertrail
-
 @enduml
