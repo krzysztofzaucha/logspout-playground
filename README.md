@@ -8,7 +8,8 @@ More detailed documentation of the **[Logspout](https://github.com/gliderlabs/lo
 
 ### Integration examples
 
-- **[Papertrail](https://papertrailapp.com)** - make sure `<YOUR_PAPERTRAIL_PORT_NUMBER>` placeholder is replaced with your correct Papertrail port number. 
+- **[Papertrail](https://papertrailapp.com)** - an example showing how to pump logs to an external logs aggregator (make sure `<YOUR_PAPERTRAIL_PORT_NUMBER>` placeholder is replaced with your correct Papertrail port number).
+- **Grafana** - an example to show how to direct logs into hosted aggregator and view in **Grafana**.
 
 ## Diagram
 
