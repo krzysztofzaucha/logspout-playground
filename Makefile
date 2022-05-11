@@ -1,5 +1,3 @@
-.PHONY: mariadb
-
 export SHELL:=/bin/bash
 export BASE_NAME:=$(shell basename ${PWD})
 export IMAGE_BASE_NAME:=kz/$(shell basename ${PWD})
@@ -24,7 +22,7 @@ clone: clean
 	@unzip -q tmp/gliderlabs/logspout.zip -d tmp/gliderlabs || true
 
 build: clone
-	@podman image build -t "${IMAGE_BASE_NAME}:latest" -f "logspout/Dockerfile" .
+	@podman image build -t "${IMAGE_BASE_NAME}-logspout:latest" -f "logspout/Dockerfile" .
 
 clean:
 	@rm -R -f tmp
@@ -38,14 +36,18 @@ compose:
 		-p ${BASE_NAME} \
 		up -d --build --force-recreate --remove-orphans --abort-on-container-exit
 
-up-logspout-papertrail: ## Start the Logspout with Papertrail example
+up-logspout-papertrail: clone ## Start the Logspout with Papertrail example
 	@COMPOSE=" -f docker-compose.yml -f logspout-papertrail.yml" make compose
 
-up-logspout-grouping-papertrail: ## Start the Logspout grouping with Papertrail example
+up-logspout-grouping-papertrail: clone ## Start the Logspout grouping with Papertrail example
 	@COMPOSE=" -f docker-compose.yml -f logspout-grouping-papertrail.yml" make compose
 
-up-logspout-grafana: build ## Start the Logspout with Grafana example
+up-logspout-grafana: clone ## Start the Logspout with Grafana example
 	@COMPOSE=" -f docker-compose.yml -f logspout-grafana.yml" make compose
+
+down: ## Stop whatever is running
+	@podman stop $(shell podman ps -aq) || true
+	@podman system prune || true
 
 ###############
 # Danger Zone #
@@ -59,3 +61,4 @@ reset: ## Cleanup
 	@podman rmi -f ${IMAGE_BASE_NAME}-grafana:latest || true
 	@podman rmi -f ${IMAGE_BASE_NAME}-fluentd:latest || true
 	@podman rmi -f ${IMAGE_BASE_NAME}-logspout:latest || true
+	@podman rmi -f ${IMAGE_BASE_NAME}-loki:latest || true

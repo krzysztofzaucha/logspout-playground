@@ -34,11 +34,28 @@ services:
     ports:
       - "3000:3000"
 
+  #cassandra:
+  #  image: cassandra:latest
+  #  container_name: ${BASE_NAME}-cassandra
+  #  labels:
+  #    service.name: "cassandra"
+  #  volumes:
+  #    - "cassandra-data:/var/lib/cassandra"
+
   loki:
-    image: grafana/loki:2.5.0
+    build:
+      context: .
+      dockerfile: loki/Dockerfile
+    image: ${IMAGE_BASE_NAME}-loki:latest
     container_name: ${BASE_NAME}-loki
     labels:
       service.name: "loki"
+    depends_on:
+      - cassandra
+    #environment:
+    #  - "CASSANDRA_HOST=${BASE_NAME}-cassandra"
+    #  - "CASSANDRA_USER=cassandra"
+    #  - "CASSANDRA_PASSWORD=cassandra"
     command: -config.file=/etc/loki/local-config.yaml
 
   fluentd:
@@ -86,7 +103,7 @@ services:
     # This mount is critical to be done this way (mount is done from the podman VM instead of the host machine).
     volumes:
       - "/run/podman/podman.sock:/var/run/docker.sock:rw"
-    command: sh -c "sleep 5; logspout fluentd://${BASE_NAME}-fluentd:24224?filter.labels=service.group:primary"
+    command: sh -c "sleep 10; logspout fluentd://${BASE_NAME}-fluentd:24224?filter.labels=service.group:primary"
     privileged: true
 
   logspout-secondary:
@@ -109,11 +126,12 @@ services:
     # This mount is critical to be done this way (mount is done from the podman VM instead of the host machine).
     volumes:
       - "/run/podman/podman.sock:/var/run/docker.sock:rw"
-    command: sh -c "sleep 5; logspout fluentd://${BASE_NAME}-fluentd:24224?filter.labels=service.group:secondary"
+    command: sh -c "sleep 10; logspout fluentd://${BASE_NAME}-fluentd:24224?filter.labels=service.group:secondary"
     privileged: true
 
 volumes:
   mariadb-data:
+  #cassandra-data:
 
 networks:
   default:

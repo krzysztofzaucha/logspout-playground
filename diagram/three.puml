@@ -35,8 +35,10 @@ actor "User" as user
 interface "Grafana UI" as grafanaui
 
 rectangle "Podman" as podman {
+folder "**File System**" as lfs #f5d0c4
+
 database "<$mariadb>\n//(grafana database)//" as mariadb #f5d0c4
-database "<$cassandra>\n//(loki database)//" as cassandra #f5d0c4
+'database "<$cassandra>\n//(loki database)//" as cassandra #f5d0c4
 
 rectangle "<$grafana>\n**Grafana**\n//(UI to view the logs)//" as grafana #d4e0b6
 rectangle "**Loki**\n//(log aggregation system)//" as loki #d4e0b6
@@ -47,15 +49,17 @@ rectangle "**Source**\n**primary**\n//(a source of the primary events)//" as sou
 rectangle "**Source**\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
 rectangle "**Source**\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
 
-rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers labeled `service.group:primary`)//" as logspoutprimary #d4e0b6
-rectangle "**LogSpout**\n**secondary**\n//(collects logs from all containers labeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
+rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers\nlabeled `service.group:primary`)//" as logspoutprimary #d4e0b6
+rectangle "**LogSpout**\n**secondary**\n//(collects logs from all containers\nlabeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
 }
 
 grafana -left-> mariadb
 grafana <-left- mariadb
 
-loki -left-> cassandra
-loki <-left- cassandra
+'loki -left-> cassandra
+'loki <-left- cassandra
+loki -left-> lfs
+loki <-left- lfs
 
 sourceprimary -down-> logspoutprimary
 sourcesecondary -down-> logspoutsecondary
@@ -69,9 +73,9 @@ fluentd -left-> loki
 loki -down-> grafana
 loki <-down- grafana
 
-grafanaui -up-> grafana
-grafanaui <-up- grafana
+grafanaui --right--> grafana
+grafanaui <--right-- grafana
 
-user -left-> grafanaui
-user <-left- grafanaui
+user -down-> grafanaui
+user <-down- grafanaui
 @enduml
