@@ -1,0 +1,120 @@
+version: "3.9"
+
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: ${BASE_NAME}-mariadb
+    labels:
+      service.name: "mariadb"
+    environment:
+      - "MYSQL_ROOT_PASSWORD=password"
+      - "MYSQL_ROOT_HOST=%"
+      - "MYSQL_DATABASE=grafana"
+    volumes:
+      - "mariadb-data:/var/lib/mysql"
+    restart: always
+
+  grafana:
+    build:
+      context: .
+      dockerfile: grafana/Dockerfile
+    image: ${IMAGE_BASE_NAME}-grafana:latest
+    #image: grafana/grafana:latest
+    container_name: ${BASE_NAME}-grafana
+    labels:
+      service.name: "grafana"
+    depends_on:
+      - mariadb
+    environment:
+      - "MYSQL_HOST=${BASE_NAME}-mariadb"
+      - "MYSQL_PORT=3306"
+      - "MYSQL_USERNAME=root"
+      - "MYSQL_PASSWORD=password"
+      - "MYSQL_NAME=grafana"
+    ports:
+      - "3000:3000"
+
+  loki:
+    image: grafana/loki:2.5.0
+    container_name: ${BASE_NAME}-loki
+    labels:
+      service.name: "loki"
+    command: -config.file=/etc/loki/local-config.yaml
+
+  fluentd:
+    build:
+      context: .
+      dockerfile: fluentd/Dockerfile
+    #image: fluent/fluentd
+    #image: grafana/fluent-plugin-loki:master
+    image: ${IMAGE_BASE_NAME}-fluentd:latest
+    container_name: ${BASE_NAME}-fluentd
+    labels:
+      service.name: "fluentd"
+    depends_on:
+      - loki
+      - grafana
+      - ping-primary
+      - ping-secondary
+      - ping-tertiary
+    environment:
+      - "LOKI_URL=http://${BASE_NAME}-loki:3100"
+      - "LOKI_USERNAME="
+      - "LOKI_PASSWORD="
+    command:
+      - "fluentd"
+      - "-v"
+      - "-p"
+      - "/fluentd/plugins"
+
+  logspout-primary:
+    build:
+      context: .
+      dockerfile: logspout/Dockerfile
+    image: ${IMAGE_BASE_NAME}-logspout:latest
+    container_name: ${BASE_NAME}-logspout-primary
+    labels:
+      service.name: "logspout-primary"
+    depends_on:
+      - loki
+      - fluentd
+      - ping-primary
+    environment:
+      #- "FLUENTD_HOST=${BASE_NAME}-fluentd"
+      #- "FLUENTD_PORT=24224"
+      - 'RAW_FORMAT={ "container" : "{{ .Container.Name }}", "labels": {{ toJSON .Container.Config.Labels }}, "timestamp": "{{ .Time.Format "2006-01-02T15:04:05Z07:00" }}", "source" : "{{ .Source }}", "message": {{ toJSON .Data }} }'
+    # This mount is critical to be done this way (mount is done from the podman VM instead of the host machine).
+    volumes:
+      - "/run/podman/podman.sock:/var/run/docker.sock:rw"
+    command: sh -c "sleep 5; logspout fluentd://${BASE_NAME}-fluentd:24224?filter.labels=service.group:primary"
+    privileged: true
+
+  logspout-secondary:
+    build:
+      context: .
+      dockerfile: logspout/Dockerfile
+    image: ${IMAGE_BASE_NAME}-logspout:latest
+    container_name: ${BASE_NAME}-logspout-secondary
+    labels:
+      service.name: "logspout-secondary"
+    depends_on:
+      - loki
+      - fluentd
+      - ping-secondary
+      - ping-tertiary
+    environment:
+      #- "FLUENTD_HOST=${BASE_NAME}-fluentd"
+      #- "FLUENTD_PORT=24224"
+      - 'RAW_FORMAT={ "container" : "{{ .Container.Name }}", "labels": {{ toJSON .Container.Config.Labels }}, "timestamp": "{{ .Time.Format "2006-01-02T15:04:05Z07:00" }}", "source" : "{{ .Source }}", "message": {{ toJSON .Data }} }'
+    # This mount is critical to be done this way (mount is done from the podman VM instead of the host machine).
+    volumes:
+      - "/run/podman/podman.sock:/var/run/docker.sock:rw"
+    command: sh -c "sleep 5; logspout fluentd://${BASE_NAME}-fluentd:24224?filter.labels=service.group:secondary"
+    privileged: true
+
+volumes:
+  mariadb-data:
+
+networks:
+  default:
+    name: ${NETWORK}
