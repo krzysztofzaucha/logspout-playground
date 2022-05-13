@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="597px" preserveAspectRatio="none" style="width:942px;height:597px;background:#FFFFFF;" version="1.1" viewBox="0 0 942 597" width="942px" zoomAndPan="magnify"><defs/><g><!--MD5=[b7a02f691e3c45f485681b2a91ea968a]
-cluster podman--><g id="cluster_podman"><rect fill="#FFFFFF" height="579" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="858" x="12" y="12.6885"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="102" x="390" y="35.1094">Podman</text></g><!--MD5=[8f58d86e465a6a32e5c931ecc1fe886f]
-entity lfs--><g id="elem_lfs"><path d="M116,342.1885 L157,342.1885 A3.75,3.75 0 0 1 159.5,344.6885 L166.5,363.1885 L234,363.1885 A2.5,2.5 0 0 1 236.5,365.6885 L236.5,393.9854 A2.5,2.5 0 0 1 234,396.4854 L116,396.4854 A2.5,2.5 0 0 1 113.5,393.9854 L113.5,344.6885 A2.5,2.5 0 0 1 116,342.1885 " fill="#F5D0C4" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="113.5" x2="166.5" y1="363.1885" y2="363.1885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="93" x="123.5" y="383.1836">File System</text></g><!--MD5=[fb005de1c6cbfeb3c47b9f1813e2e975]
-entity mariadb--><g id="elem_mariadb"><path d="M302,494.1885 C302,484.1885 380,484.1885 380,484.1885 C380,484.1885 458,484.1885 458,494.1885 L458,549.4854 C458,559.4854 380,559.4854 380,559.4854 C380,559.4854 302,559.4854 302,549.4854 L302,494.1885 " fill="#F5D0C4" style="stroke:#333333;stroke-width:1.0;"/><path d="M302,494.1885 C302,504.1885 380,504.1885 380,504.1885 C380,504.1885 458,504.1885 458,494.1885 " fill="none" style="stroke:#333333;stroke-width:1.0;"/><image height="30" width="102" x="329" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAAeCAIAAABRzPyZAAADGElEQVR4Xu2ZsY7UMBRF5z+gmQ7RUSBRb0GLhCiptqOiiERHtSUN0lQUdJGQqEF8APsBNHwCn5Cei+/O1Vvf2EmGyWwyWulqlDw/O/Hx87Od2XS/ru9Q118+bx8+gLxosdq4aVa9fH5BRtTV2zf3yIr6/f0r0LQfrqKay9f4ffL4kfsvVidCBi6IL2JiWJEXkd1HWY8unj3N4mv3/h3Eeer+S9YpkPl8FDWgdP+Fa3ZkyFMOC7p89QLLpfsvX3eDjLPSnVeheZGVpuTq8lfUjMi0ILqQ9d1/LZoRWSnEoD8/f7j/WjQXsgovJH73X5FmQVbh1Z4kkc0axUdGhn2WdvklOTKcpbypLp0Z3DhGyKFudOGEy4Qrffv0MTpgGxRLaTwOMoIYhEVlr9WVe1iyH0tAlsUjIeoWyLQZwriy6HBkaIunxZGkqN5EhlfxQAPZXmSwC7o6zIt2H5U+MXtrOTIaIV5HZN1+CCcjw9YUmJrC7mFQPivbtIA6HT4iosTbw4hucMBjRHDi6DgRW6ObarXpc4CKHFms/r/IpgZUrxwZhxS/kQ4igu+qAde8iD4RWey87PBRCxS583oMMo2NjKOQtemTlvd/qkDcz5Wx2xVjxqteWrJnxjHIgBg+GDAF9TAywEI17/8B8hDrbneAgYYXVWiM7PysyGRn0A0gO0pwUdh/1JHp2i2ZcbC0ZM+MU5GxqIYMzaFR73xFaDELSSyRvODy6k+JveLjYvZRaZu+f5TqlpChqWxPE3NiL7ImpMUMGTtYQ1bfxPcqq7JLHxFlH0RWv21SJuY1c/8gMl6r2+3+6zlvOUJoiq/KophtmSJ26VOVKhaRHcCrNWSMLBn9GyzGMxvnbH3AbXRgjKhjcvZa2S1rKVfKLqHIIw4WOaj0BhmmDzdcVHN728U0BAcix2/8bw12OKi6au3SXpd/LGm2bvsCbV3a1BdEoMxiviQMQkST0RHfc0DW7f+OdV5TuxcbmVp3RfqHLOPFCeXLU11xO7JNU9t9zkM3yKI8Cw4Kiw7PUmzBz9jnpOKKOUkkteov+uP1F3IqS9MAX1zJAAAAAElFTkSuQmCC" y="508.1885"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="136" x="312" y="551.1836">(grafana database)</text></g><!--MD5=[97029dda41c7f1332efacff3a5502fd8]
-entity grafana--><g id="elem_grafana"><rect fill="#D4E0B6" height="107.5938" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="158" x="493" y="467.6885"/><image height="55" width="51" x="546.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA3CAIAAAAuUuVrAAACsElEQVR4XtWZMW4VMRCG31k5AMWrEBUV6SgoqBAdTWqE0iNxAOQDcBQmTBgm843H9nr1ENJXROt/xt96134vyaX9/Hou11cv3n14zeurXHhpB9EyOLrEmWZea1/uNDNqXfce6zlmYkCtzWU7x4xCxuFlO8Hs/st7CpGg6IfYs22acfpjpOtamT18+/Tx81spE+RnP8Tum3D2xIxlN4Aa0ezN3UuW3YDbmekL8P3HvTCzRcZmxck0hN1TWCjIioRYNJNbZFkNm87APrLbfCCapTUFLF+i6LZlxtoD9HoeN2PhYfzLbc80MWsTcizZxMvplSNmzJ+C9ddly818jjCcIhOEQjnYGPP4KZbNmCSsCoRPYda2082WDmqWtz/zyuqumck5zKRx4JMtXTwdys16czBp9Fard90IR3+rzVivMNkrYaBle0Lho7j2zGTNSPrNM80zUITTErmSmMkdsFJI3wlr1Jsjhc1DoaxCNGNBWukR42GGDPs/M2O6qDTk/oYZ4u9HCW/LXzOqBNg9FBaPO6We4smMIcIdFGo5VMMp/OijGRMpPHgUua6BnnoPKzT86IJZqPToaHGspMhHUNH/wukL2F0ZBlIGa6a/gk9SvOOW4VAP9vejj0+TiQJOoMijGWYCbO5rn/am/f1iSLFsMuST4mp/GUk3B5srOvrspGUohXN4eJPMtHIuDcRPJ7k5RglnWoU9Q/9oZoRHQ1gyD7uxeddspgXzM7APaUOzYSPma9iBaHJsNvPmsSqFhYbsm7Drx2bt93aboffrpJ4dBSxpk2ZtWu4A6VHX/rlZcW5Pmcltsek+hVabNJMXiH034SyB/9xsuLlW6e1iz5RZ6+8A21lL68r+5LhZb7cbxb5hmMyayZLo9y0OFei/KQLDW1JmzXYIZgyk3MJMWdISfgFpcEe7wJWk6gAAAABJRU5ErkJggg==" y="477.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="66" x="539" y="545.6836">Grafana</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="138" x="503" y="561.9805">(UI to view the logs)</text></g><!--MD5=[24ae6a5474e916cd85c833de88942229]
-entity loki--><g id="elem_loki"><rect fill="#D4E0B6" height="52.5938" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="197" x="271.5" y="342.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="353.5" y="365.6836">Loki</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="177" x="281.5" y="381.9805">(log aggregation system)</text></g><!--MD5=[272b21477ce7f2b0fbed403921b28491]
-entity fluentd--><g id="elem_fluentd"><rect fill="#D4E0B6" height="52.5938" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="349" x="503.5" y="342.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="647.5" y="365.6836">Fluentd</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="329" x="513.5" y="381.9805">(intermediate service used to pass logs to loki)</text></g><!--MD5=[3e7456bc247c8781287bc366de922c77]
-entity sourceprimary--><g id="elem_sourceprimary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="247" x="606.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="702.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="698.5" y="95.9805">primary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="227" x="616.5" y="112.2773">(a source of the primary events)</text></g><!--MD5=[cf586895d563e258b90aebb9608ec115]
-entity sourcesecondary--><g id="elem_sourcesecondary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="265" x="306.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="411.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="397.5" y="95.9805">secondary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="245" x="316.5" y="112.2773">(a source of the secondary events)</text></g><!--MD5=[111d468c44e6bcb556ceaf32144eae4c]
-entity sourcetertiary--><g id="elem_sourcetertiary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="243" x="28.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="55" x="122.5" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="118.5" y="95.9805">tertiary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="223" x="38.5" y="112.2773">(a source of the tertiary events)</text></g><!--MD5=[9430d1ccdf9167f5a1d15e55ab0b1fa2]
-entity logspoutprimary--><g id="elem_logspoutprimary"><rect fill="#D4E0B6" height="85.1875" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="265" x="588.5" y="185.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="682.5" y="208.6836">LogSpout</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="689.5" y="224.9805">primary</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="243" x="599.5" y="241.2773">//(collects logs from all containers</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="245" x="598.5" y="257.5742">labeled `service.group:primary`)//</text></g><!--MD5=[a145708ea756fcd68d9c3d1092ac9545]
-entity logspoutsecondary--><g id="elem_logspoutsecondary"><rect fill="#D4E0B6" height="85.1875" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="282" x="271" y="185.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="373.5" y="208.6836">LogSpout</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="370.5" y="224.9805">secondary</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="243" x="290.5" y="241.2773">//(collects logs from all containers</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="262" x="281" y="257.5742">labeled `service.group:secondary`)//</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
-entity user--><g id="elem_user"><ellipse cx="903" cy="339.6885" fill="#FFFFFF" rx="8" ry="8" style="stroke:#333333;stroke-width:1.0;"/><path d="M903,347.6885 L903,374.6885 M890,355.6885 L916,355.6885 M903,374.6885 L890,389.6885 M903,374.6885 L916,389.6885 " fill="none" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="31" x="887.5" y="404.6836">User</text></g><!--MD5=[7e96e389324513f59f0469e2a1ed6ddb]
-entity grafanaui--><g id="elem_grafanaui"><ellipse cx="899" cy="521.6885" fill="#FFFFFF" rx="8" ry="8" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="73" x="862.5" y="551.6836">Grafana UI</text></g><!--MD5=[0d670bdc34f97218803734b58966db38]
-reverse link mariadb to grafana--><g id="link_mariadb_grafana"><path d="M463.514,549.3377 C473.341,550.0866 483.168,549.9514 492.995,548.932 " fill="none" id="mariadb-backto-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="458.375,548.8655,466.9716,553.6716,463.3541,549.3226,467.703,545.7051,458.375,548.8655" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[9d5c330da2f3c7a421ed843f4bb54b83]
-link mariadb to grafana--><g id="link_mariadb_grafana"><path d="M458.375,494.5115 C468.202,493.4545 478.029,493.2815 487.856,493.9925 " fill="none" id="mariadb-to-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="492.995,494.4445,484.3806,489.6704,488.0143,494.0058,483.6788,497.6395,492.995,494.4445" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[384c936f98e7acdbf5330bcfd2f49c12]
-reverse link lfs to loki--><g id="link_lfs_loki"><path d="M241.839,387.4355 C251.668,388.7195 261.497,389.3865 271.326,389.4355 " fill="none" id="lfs-backto-loki" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="236.699,386.7085,245.0503,391.9293,241.6497,387.4086,246.1704,384.0081,236.699,386.7085" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[9eafc0057af7e8c821b31bd2938b4b6a]
-link lfs to loki--><g id="link_lfs_loki"><path d="M236.699,351.6685 C246.528,350.1695 256.357,349.2875 266.186,349.0235 " fill="none" id="lfs-to-loki" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="271.326,348.9415,262.2632,345.086,266.3266,349.0215,262.3911,353.0849,271.326,348.9415" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[70d827d4966d5655bc7a887ff0ced7f7]
-link sourceprimary to logspoutprimary--><g id="link_sourceprimary_logspoutprimary"><path d="M727.752,125.9065 C726.667,142.1845 725.346,161.9955 724.162,179.7635 " fill="none" id="sourceprimary-to-logspoutprimary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="723.799,185.2065,728.3867,176.4914,724.1304,180.2175,720.4042,175.9612,723.799,185.2065" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[6a1cdbcd822bc57d36a81c3819147fe0]
-link sourcesecondary to logspoutsecondary--><g id="link_sourcesecondary_logspoutsecondary"><path d="M432.256,125.9065 C428.973,142.3255 424.97,162.3375 421.393,180.2225 " fill="none" id="sourcesecondary-to-logspoutsecondary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="420.396,185.2065,426.0825,177.1651,421.376,180.3035,418.2376,175.597,420.396,185.2065" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[be77ef1f20618280c0f647171afc4fe9]
-link sourcetertiary to logspoutsecondary--><g id="link_sourcetertiary_logspoutsecondary"><path d="M215.101,125.7325 C248.75,143.0715 290.243,164.4515 326.449,183.1065 " fill="none" id="sourcetertiary-to-logspoutsecondary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="331.293,185.6025,325.1257,177.9236,326.8486,183.3117,321.4605,185.0346,331.293,185.6025" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[0e4acb72a37dba4ad075055026cfc41c]
-link logspoutprimary to fluentd--><g id="link_logspoutprimary_fluentd"><path d="M708.099,270.8935 C701.439,292.4195 693.463,318.2045 687.394,337.8205 " fill="none" id="logspoutprimary-to-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="685.895,342.6685,692.3778,335.2541,687.3738,337.8922,684.7357,332.8881,685.895,342.6685" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[edf2977da53771e5f912cb1f941d7847]
-link logspoutsecondary to fluentd--><g id="link_logspoutsecondary_fluentd"><path d="M491.448,270.7045 C534.404,293.1515 586.307,320.2735 624.448,340.2045 " fill="none" id="logspoutsecondary-to-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="629.03,342.5985,622.906,334.8851,624.5986,340.2828,619.2009,341.9753,629.03,342.5985" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[02d60668607db911ddb863b82f469c06]
-reverse link loki to fluentd--><g id="link_loki_fluentd"><path d="M473.815,369.1885 C483.68,369.1885 493.545,369.1885 503.411,369.1885 " fill="none" id="loki-backto-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="468.656,369.1885,477.656,373.1885,473.656,369.1885,477.656,365.1885,468.656,369.1885" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[3fdc2fb758ab6ccb3fbd7087c256e943]
-link loki to grafana--><g id="link_loki_grafana"><path d="M394.412,395.7185 C418.065,415.3825 454.665,443.2445 488.599,467.6715 " fill="none" id="loki-to-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="492.724,470.6325,487.7476,462.1333,488.663,467.7156,483.0807,468.631,492.724,470.6325" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[4b590bb5f179e265506513e580afffa5]
-reverse link loki to grafana--><g id="link_loki_grafana"><path d="M418.869,398.5315 C447.496,417.9405 483.557,444.2765 513.614,467.5255 " fill="none" id="loki-backto-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="414.701,395.7185,419.9264,404.0668,418.8465,398.514,424.3993,397.4341,414.701,395.7185" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[dfe812c695ab960feed5c5d028278b5e]
-link grafanaui to grafana--><g id="link_grafanaui_grafana"><path d="M889.804,526.1161 C811.977,562.5043 734.149,571.3624 656.322,552.6905 " fill="none" id="grafanaui-to-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="651.195,551.4208,658.9701,557.4662,656.0485,552.6223,660.8925,549.7006,651.195,551.4208" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[6fd5d1c25ebbcdb44a9291efbab13d94]
-reverse link grafanaui to grafana--><g id="link_grafanaui_grafana"><path d="M885.144,515.1148 C807.161,479.7555 729.178,472.0355 651.195,491.9565 " fill="none" id="grafanaui-backto-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="889.804,517.2609,883.3004,509.8647,885.2619,515.1706,879.956,517.1321,889.804,517.2609" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[d44fe36de45c3554f26956fd46f44ca2]
-link user to grafanaui--><g id="link_user_grafanaui"><path d="M890.792,407.7775 C887.033,440.2035 887.025,485.2005 891.708,507.3215 " fill="none" id="user-to-grafanaui" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="893.001,512.4314,894.6706,502.7251,891.7743,507.5842,886.9152,504.6878,893.001,512.4314" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[2c046a57a8f0273431cb72f7fda4e6da]
-reverse link user to grafanaui--><g id="link_user_grafanaui"><path d="M914.17,412.8165 C915.963,447.5695 912.827,493.8315 905.804,512.4314 " fill="none" id="user-backto-grafanaui" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="913.869,407.7775,910.4135,417.0003,914.1676,412.7686,918.3993,416.5226,913.869,407.7775" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[aa1b0c2b3ac055735cc89a204716c5d7]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="753px" preserveAspectRatio="none" style="width:921px;height:753px;background:#FFFFFF;" version="1.1" viewBox="0 0 921 753" width="921px" zoomAndPan="magnify"><defs/><g><!--MD5=[b7a02f691e3c45f485681b2a91ea968a]
+cluster podman--><g id="cluster_podman"><rect fill="#FFFFFF" height="735" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="838" x="12" y="12.6885"/><text fill="#000000" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="101" x="380.5" y="35.1094">Podman</text></g><!--MD5=[8f58d86e465a6a32e5c931ecc1fe886f]
+entity lfs--><g id="elem_lfs"><path d="M111.5,454.1885 L152.5,454.1885 A3.75,3.75 0 0 1 155,456.6885 L162,475.1885 L226.5,475.1885 A2.5,2.5 0 0 1 229,477.6885 L229,505.9854 A2.5,2.5 0 0 1 226.5,508.4854 L111.5,508.4854 A2.5,2.5 0 0 1 109,505.9854 L109,456.6885 A2.5,2.5 0 0 1 111.5,454.1885 " fill="#F5D0C4" style="stroke:#333333;stroke-width:1.0;"/><line style="stroke:#333333;stroke-width:1.0;" x1="109" x2="162" y1="475.1885" y2="475.1885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="90" x="119" y="495.1836">File System</text></g><!--MD5=[fb005de1c6cbfeb3c47b9f1813e2e975]
+entity mariadb--><g id="elem_mariadb"><path d="M294.5,642.1885 C294.5,632.1885 369,632.1885 369,632.1885 C369,632.1885 443.5,632.1885 443.5,642.1885 L443.5,697.4854 C443.5,707.4854 369,707.4854 369,707.4854 C369,707.4854 294.5,707.4854 294.5,697.4854 L294.5,642.1885 " fill="#F5D0C4" style="stroke:#333333;stroke-width:1.0;"/><path d="M294.5,642.1885 C294.5,652.1885 369,652.1885 369,652.1885 C369,652.1885 443.5,652.1885 443.5,642.1885 " fill="none" style="stroke:#333333;stroke-width:1.0;"/><image height="30" width="102" x="318" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGYAAAAeCAIAAABRzPyZAAADGElEQVR4Xu2ZsY7UMBRF5z+gmQ7RUSBRb0GLhCiptqOiiERHtSUN0lQUdJGQqEF8APsBNHwCn5Cei+/O1Vvf2EmGyWwyWulqlDw/O/Hx87Od2XS/ru9Q118+bx8+gLxosdq4aVa9fH5BRtTV2zf3yIr6/f0r0LQfrqKay9f4ffL4kfsvVidCBi6IL2JiWJEXkd1HWY8unj3N4mv3/h3Eeer+S9YpkPl8FDWgdP+Fa3ZkyFMOC7p89QLLpfsvX3eDjLPSnVeheZGVpuTq8lfUjMi0ILqQ9d1/LZoRWSnEoD8/f7j/WjQXsgovJH73X5FmQVbh1Z4kkc0axUdGhn2WdvklOTKcpbypLp0Z3DhGyKFudOGEy4Qrffv0MTpgGxRLaTwOMoIYhEVlr9WVe1iyH0tAlsUjIeoWyLQZwriy6HBkaIunxZGkqN5EhlfxQAPZXmSwC7o6zIt2H5U+MXtrOTIaIV5HZN1+CCcjw9YUmJrC7mFQPivbtIA6HT4iosTbw4hucMBjRHDi6DgRW6ObarXpc4CKHFms/r/IpgZUrxwZhxS/kQ4igu+qAde8iD4RWey87PBRCxS583oMMo2NjKOQtemTlvd/qkDcz5Wx2xVjxqteWrJnxjHIgBg+GDAF9TAywEI17/8B8hDrbneAgYYXVWiM7PysyGRn0A0gO0pwUdh/1JHp2i2ZcbC0ZM+MU5GxqIYMzaFR73xFaDELSSyRvODy6k+JveLjYvZRaZu+f5TqlpChqWxPE3NiL7ImpMUMGTtYQ1bfxPcqq7JLHxFlH0RWv21SJuY1c/8gMl6r2+3+6zlvOUJoiq/KophtmSJ26VOVKhaRHcCrNWSMLBn9GyzGMxvnbH3AbXRgjKhjcvZa2S1rKVfKLqHIIw4WOaj0BhmmDzdcVHN728U0BAcix2/8bw12OKi6au3SXpd/LGm2bvsCbV3a1BdEoMxiviQMQkST0RHfc0DW7f+OdV5TuxcbmVp3RfqHLOPFCeXLU11xO7JNU9t9zkM3yKI8Cw4Kiw7PUmzBz9jnpOKKOUkkteov+uP1F3IqS9MAX1zJAAAAAElFTkSuQmCC" y="656.1885"/><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="129" x="304.5" y="699.1836">(grafana database)</text></g><!--MD5=[97029dda41c7f1332efacff3a5502fd8]
+entity grafana--><g id="elem_grafana"><rect fill="#D4E0B6" height="123.8906" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="155" x="478.5" y="607.6885"/><image height="55" width="51" x="530.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA3CAIAAAAuUuVrAAACsElEQVR4XtWZMW4VMRCG31k5AMWrEBUV6SgoqBAdTWqE0iNxAOQDcBQmTBgm843H9nr1ENJXROt/xt96134vyaX9/Hou11cv3n14zeurXHhpB9EyOLrEmWZea1/uNDNqXfce6zlmYkCtzWU7x4xCxuFlO8Hs/st7CpGg6IfYs22acfpjpOtamT18+/Tx81spE+RnP8Tum3D2xIxlN4Aa0ezN3UuW3YDbmekL8P3HvTCzRcZmxck0hN1TWCjIioRYNJNbZFkNm87APrLbfCCapTUFLF+i6LZlxtoD9HoeN2PhYfzLbc80MWsTcizZxMvplSNmzJ+C9ddly818jjCcIhOEQjnYGPP4KZbNmCSsCoRPYda2082WDmqWtz/zyuqumck5zKRx4JMtXTwdys16czBp9Fard90IR3+rzVivMNkrYaBle0Lho7j2zGTNSPrNM80zUITTErmSmMkdsFJI3wlr1Jsjhc1DoaxCNGNBWukR42GGDPs/M2O6qDTk/oYZ4u9HCW/LXzOqBNg9FBaPO6We4smMIcIdFGo5VMMp/OijGRMpPHgUua6BnnoPKzT86IJZqPToaHGspMhHUNH/wukL2F0ZBlIGa6a/gk9SvOOW4VAP9vejj0+TiQJOoMijGWYCbO5rn/am/f1iSLFsMuST4mp/GUk3B5srOvrspGUohXN4eJPMtHIuDcRPJ7k5RglnWoU9Q/9oZoRHQ1gyD7uxeddspgXzM7APaUOzYSPma9iBaHJsNvPmsSqFhYbsm7Drx2bt93aboffrpJ4dBSxpk2ZtWu4A6VHX/rlZcW5Pmcltsek+hVabNJMXiH034SyB/9xsuLlW6e1iz5RZ6+8A21lL68r+5LhZb7cbxb5hmMyayZLo9y0OFei/KQLDW1JmzXYIZgyk3MJMWdISfgFpcEe7wJWk6gAAAABJRU5ErkJggg==" y="617.6885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="4" x="554" y="685.6836"> </text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="62" x="525" y="701.9805">Grafana</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="135" x="488.5" y="718.2773">(UI to view the logs)</text></g><!--MD5=[24ae6a5474e916cd85c833de88942229]
+entity loki--><g id="elem_loki"><rect fill="#D4E0B6" height="127.8906" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="192" x="264" y="417.1885"/><image height="59" width="64" x="328" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA7CAIAAABE7huLAAAFB0lEQVR4Xu2Zb0tUQRjF/axBEARBEf2RBCFRwlAwLEsRK0sSDKU2FhJWUAqUCuMW9CLoo/Tbe9qH6c7dnZlbd9YXwuHyeHecPefMeebO7k4Uv941wOnPN/7NsWDCvzUMkN54dW9rb9F/aYxIEACmZi4D//4YkSZg6cnUtVsXjr/vFGcmRWkCnu/cv3HnYudglXVYXp/2B+RHmoD9j09vT1963V1GwMz8VX9AfkQJIC2Kzacfu6zA42d3yRLFWUhRlIDpuStzi9dVU8w/uEmWWAoWxB+cGVECFh5Omt/Yj55Or98GZMkdxrKgzf/3VhEQ8OHrdvdwXX73jje5s/12qS/gYJU7PBY0rHeyyWrAPn+uAgLgxL65t78CM/kNUQQggyY2vxGjXDHs8POWP097CAiAkwRAce3lLHfoZgTgvbIkv+W9hlVy1TYCAsgPzCp+U4Ct3UUEKFfKWCVXeRAQgN8IWHsx6/ptfcxVfluNTlrZn6c9BAQUg31Tfivf1sfKUlHqlPc8ntGQs4/DAuQ3+Ta/6WNYUqONHVbDuENNlkxnHoQF+H7zPKaGK9rMb7w3nSTKn6clhAVo36z4vfBoEsZqbvmtjHWP1k1nHoQFuPum+c2WSs0exVV+q4+5Zu7jsICi3DfxXlmS33vvV7gpv8lS4ehUH/uTtIQoAepj129yhSRkkCVe1TAkWa44g/jztIEoAeKE31zlN32MAD4fYzmFckXNAPqYbsnWx1ECtG9W/Cbo1DQ3Auz5AHV0cs12oIgSQL7hVPGbpaAmV1zdXFGjjYe3P08biBJQ1PlNVPoCjvoC9F0LOv1ctY1YAeLk+s0xzvyuzZU+hbaNWAHi5PptfawsWR+bzjwfOGMFuPk2vymAsqRcSacG5+njWAG1+eZP85trMdBJjc48B4pYAUV5XKv4rQXx+5j9lFzlOVAkCHD3TfmNDFRRczTSA64o+5ia/FBk6OMEAe6+qXwTJFhud5awnMJyRU2WWK4MfZwgQPsmfsPM/CboAG3clN/ULEvvZJNrhgNFggD2TfMbcvKbpeChC12u8hudqrlm+DEhQUBRfgzAb3w1v/sNMBCA90XZx9SMgX2GA0WaAPyGuus3fax6w/nxRjUaeKntPk4TIE6HX/qklW+CRI0wZUnDyFh/Wcos6YujVDAt1sR8qEgTEOm3ai2UNtwgaDAmZ3Dn4E/2tBf7IytIEyC/ybrrt9/HUKHX8Q/7YebPU/zNGK7azZjBBXeCR9o0AUWd35DgJmygcvxtaOKVChSiX0cSn3EFCAu2ULIA81seFyWzWp/EmEXQq93ya3qfpQskMQbQRehE7bAFNCQLwONhroixat5eFgLd5ForoMKYYcPmr0WyABdmvHUeV/f5IKiP8VJZF2NGBhkzf3AjaiLAcmwHCgSYnb7fvKphkYxJHf9CVlkWUJtPQxMBMlt0RYW3tI7URoTfbir8SYRaxhUMUys0EVDrN6p4M0iMoFvEMa5g9IRNBPD2lmM9aE8HPyT7EGNtJhQ+vxFAITpHt0ETAXoGjWCsgjc2j6VTuRoGDebzhlIX3ECFJgJqAV1LheXKyFkfV2Ijj5MYV9BQAPZjKvsjbao35k+j5faxEdU/8tI/Mq6goQBIGDn57ebb3Tf1pyS1gYYCfL+JvpzmaifQ/+LxaDQUQIRMAG2nmyzCsM5uDw0F4DfnuRF7UTY0FHB2cC5g3DgXMG78BuGL+4KUPKMAAAAAAElFTkSuQmCC" y="427.1885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="4" x="358" y="499.1836"> </text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="32" x="344" y="515.4805">Loki</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="172" x="274" y="531.7773">(log aggregation system)</text></g><!--MD5=[272b21477ce7f2b0fbed403921b28491]
+entity fluentd--><g id="elem_fluentd"><rect fill="#D4E0B6" height="132.8906" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="342" x="491" y="414.6885"/><image height="64" width="64" x="630" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAIAAAAlC+aJAAAET0lEQVR4Xu2Y60tUQRiH+1uCIJKKopvRgpFkmV1QWrHsgplpkpFkZriwoHQnKbE7kV2QJEUpQ0jwQ1BgFBRb0IegP6UnJ6bTeeecM2e8HIUDD7Ire2Z/z1zemdklhV9vFjVL5L8WF6lA0qQCSZMKJE0qkDRhApMfn41O3IWJD/2ffozIDywEAgUGx249fH5Rce9J143bF54OXX/3eUB+MlnMAnS5Tq9AQIHG1Lch+UhSmAWGx/uCBODW/dzY5AP5VCKYBejmEAHF4xdXFsJQmAUGX/9bAEECcK23ffzdI/n4fGIWoPLYCED+UsvAaM+Xn69kI/ODWYBqYy8ArIqkppNZgB6NJQCXes5Su2RTc41ZoCAKkYzuE1Cwsud5OgUKvP866CCQ625mZfOsbHCOCBQAVmdcAUVHvpE6Jhu0gQHEf+q77YoKE/AOgoweIgCn247kL7dYDgWhEWb0sgfLS0o3Fm9ZA2UVmXOdxyNrQ5hAwbMhyOjhAqTB4VDdPgpUkAa5WWkMF1lVaE2mZJ16UVldFn6OjBDgYTcBYrWer2s+U7v/wM6awxWtHXU37vzZvJ++vM5fXvOBPVXbdFAv9U1ZphCNqLfUNxlMEyEA7LXqNGpERvcKQP3JLA4S2esatPleGldvS3dsDjkFRwsAfcZMkOltBOBoQ5UvvZ7oQezaW/L/260DIz0yWMFSgJU0EwFgFqnoldXbjdPGBuNcshKAyalnFHhnARZ03PSMEk+x/JjDlAFWo3E12woUps/Y3dfOuAmoiRQ5czS5ruag2uUjhgAwiGqvdRCgpNp0P5+JtQnGE2AQVTKGQmnI6EYBtY6pmzKxZu36og3Fq+NeMOIJFKarKlMTKHakxESm9wl4K6l3Fv19nfkTvWjlMv7GTV9wEAAqEgLHmvbDiVM1vGbPJ7FXgJmm0qu9TKM2LyDu6jXLya0ZfXtXflckLgJUVS3gAx8SaxpP1ZBYQWkv25UBb2gNs1F+kQ0uAnCvv0um93G0oVKH9rKheJU3+vIVS9XW64ajAHu7TGyTHpj3XoGtpZuMBd4SRwFo6zwuc0emB9auV2CGPzG5C1ztbZfRI9N7BZg8xtNBLNwFbt7POaT3CtQc3i2bjYu7AHXDIb0W2JxZa3lYCMddgGLvkB7YBJg8blVf4ihA3aD2OaQvmy6jbIWyTTccBThv6fS1dXvVFiuzSrhecfqQDTrjIsBlXNdQfVOxFOAIKBucCS4C6izku+xGCjDHuFvL1mZIbAEOERx4dMdbCmQPlI9OzM6q9RFDgDMc+w7r1Rc9UoCz6qxUTCNWAkTnbkrZCUofJMA9Zni8TzY4i4QJ0G1UG3qdOaNrjoxuFKhvygb9EDK7mAWIzoJj6L3RQwQqq7ezRoGLL8IOFytnzAIaNqyJD/30JT7qRq8uWQpqEW/zl1v6HuUZq7mb6CFECCx8UoGkSQWSJhVImlQgaVKBpFn0Ar8BZTHJhlt0U/IAAAAASUVORK5CYII=" y="424.6885"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="4" x="660" y="501.6836"> </text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="632.5" y="517.9805">Fluentd</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="322" x="501" y="534.2773">(intermediate service used to pass logs to loki)</text></g><!--MD5=[3e7456bc247c8781287bc366de922c77]
+entity sourceprimary--><g id="elem_sourceprimary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="239" x="595.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="687" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="60" x="685" y="95.9805">primary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="219" x="605.5" y="112.2773">(a source of the primary events)</text></g><!--MD5=[cf586895d563e258b90aebb9608ec115]
+entity sourcesecondary--><g id="elem_sourcesecondary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="261" x="299.5" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="402" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="388.5" y="95.9805">secondary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="241" x="309.5" y="112.2773">(a source of the secondary events)</text></g><!--MD5=[111d468c44e6bcb556ceaf32144eae4c]
+entity sourcetertiary--><g id="elem_sourcetertiary"><rect fill="#8ABDED" height="68.8906" rx="10" ry="10" style="stroke:#333333;stroke-width:1.0;" width="236" x="28" y="56.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="56" x="118" y="79.6836">Source</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="117" y="95.9805">tertiary</text><text fill="#000000" font-family="Verdana" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="216" x="38" y="112.2773">(a source of the tertiary events)</text></g><!--MD5=[9430d1ccdf9167f5a1d15e55ab0b1fa2]
+entity logspoutprimary--><g id="elem_logspoutprimary"><rect fill="#D4E0B6" height="169.1875" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="252" x="582" y="185.6885"/><image height="84" width="128" x="644" xlink:href="data:image/png;base64,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" y="195.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="670.5" y="292.6836">LogSpout</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="60" x="678" y="308.9805">primary</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="231" x="592.5" y="325.2773">//(collects logs from all containers</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="232" x="592" y="341.5742">labeled `service.group:primary`)//</text></g><!--MD5=[a145708ea756fcd68d9c3d1092ac9545]
+entity logspoutsecondary--><g id="elem_logspoutsecondary"><rect fill="#D4E0B6" height="169.1875" rx="2.5" ry="2.5" style="stroke:#333333;stroke-width:1.0;" width="274" x="273" y="185.6885"/><image height="84" width="128" x="346" xlink:href="data:image/png;base64,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" y="195.6885"/><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="372.5" y="292.6836">LogSpout</text><text fill="#000000" font-family="Verdana" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="83" x="368.5" y="308.9805">secondary</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="231" x="294.5" y="325.2773">//(collects logs from all containers</text><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="254" x="283" y="341.5742">labeled `service.group:secondary`)//</text></g><!--MD5=[8fc3522a43f8c7199df5e09e5bb0188e]
+entity user--><g id="elem_user"><ellipse cx="884" cy="451.6885" fill="#FFFFFF" rx="8" ry="8" style="stroke:#333333;stroke-width:1.0;"/><path d="M884,459.6885 L884,486.6885 M871,467.6885 L897,467.6885 M884,486.6885 L871,501.6885 M884,486.6885 L897,501.6885 " fill="none" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="32" x="868" y="516.6836">User</text></g><!--MD5=[7e96e389324513f59f0469e2a1ed6ddb]
+entity grafanaui--><g id="elem_grafanaui"><ellipse cx="879" cy="669.6885" fill="#FFFFFF" rx="8" ry="8" style="stroke:#333333;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="70" x="844" y="699.6836">Grafana UI</text></g><!--MD5=[0d670bdc34f97218803734b58966db38]
+reverse link mariadb to grafana--><g id="link_mariadb_grafana"><path d="M448.66,697.1985 C458.51,698.0785 468.37,698.0185 478.22,697.0185 " fill="none" id="mariadb-backto-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="443.51,696.6485,452.0506,701.5533,448.4835,697.163,452.8738,693.5958,443.51,696.6485" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[9d5c330da2f3c7a421ed843f4bb54b83]
+link mariadb to grafana--><g id="link_mariadb_grafana"><path d="M443.51,642.7285 C453.36,641.5185 463.22,641.2485 473.07,641.9185 " fill="none" id="mariadb-to-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="478.22,642.3585,469.5956,637.6024,473.2384,641.9303,468.9105,645.573,478.22,642.3585" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[384c936f98e7acdbf5330bcfd2f49c12]
+reverse link lfs to loki--><g id="link_lfs_loki"><path d="M234.22,499.3985 C244.1,500.7285 253.97,501.4085 263.84,501.4385 " fill="none" id="lfs-backto-loki" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="229.06,498.6485,237.3975,503.8912,234.0089,499.3616,238.5385,495.9729,229.06,498.6485" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[9eafc0057af7e8c821b31bd2938b4b6a]
+link lfs to loki--><g id="link_lfs_loki"><path d="M229.06,463.7285 C238.93,462.1685 248.81,461.2685 258.68,461.0185 " fill="none" id="lfs-to-loki" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="263.84,460.9385,254.7838,457.0674,258.8405,461.0099,254.8981,465.0666,263.84,460.9385" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[70d827d4966d5655bc7a887ff0ced7f7]
+link sourceprimary to logspoutprimary--><g id="link_sourceprimary_logspoutprimary"><path d="M713.67,125.8985 C713.05,141.4885 712.29,160.8085 711.52,180.1685 " fill="none" id="sourceprimary-to-logspoutprimary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="711.3,185.6185,715.6565,176.7855,711.4998,180.6225,707.6629,176.4658,711.3,185.6185" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[6a1cdbcd822bc57d36a81c3819147fe0]
+link sourcesecondary to logspoutsecondary--><g id="link_sourcesecondary_logspoutsecondary"><path d="M426.19,125.8985 C424.43,141.4885 422.25,160.8085 420.06,180.1685 " fill="none" id="sourcesecondary-to-logspoutsecondary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="419.44,185.6185,424.4202,177.1215,419.9984,180.6498,416.4702,176.228,419.44,185.6185" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[be77ef1f20618280c0f647171afc4fe9]
+link sourcetertiary to logspoutsecondary--><g id="link_sourcetertiary_logspoutsecondary"><path d="M195.97,125.6885 C220.26,141.9785 250.69,162.3785 280.92,182.6485 " fill="none" id="sourcetertiary-to-logspoutsecondary" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="285.38,185.6385,280.1301,177.3055,281.2263,182.8551,275.6767,183.9513,285.38,185.6385" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[0e4acb72a37dba4ad075055026cfc41c]
+link logspoutprimary to fluentd--><g id="link_logspoutprimary_fluentd"><path d="M689.62,354.6885 C685.62,372.8785 681.42,391.9485 677.54,409.5785 " fill="none" id="logspoutprimary-to-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="676.45,414.5185,682.285,406.5842,677.521,409.6345,674.4707,404.8706,676.45,414.5185" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[edf2977da53771e5f912cb1f941d7847]
+link logspoutsecondary to fluentd--><g id="link_logspoutsecondary_fluentd"><path d="M510.68,354.6885 C533.27,373.4285 556.99,393.0985 578.77,411.1585 " fill="none" id="logspoutsecondary-to-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="582.81,414.5185,578.4341,405.6951,578.9607,411.3274,573.3284,411.854,582.81,414.5185" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[02d60668607db911ddb863b82f469c06]
+reverse link loki to fluentd--><g id="link_loki_fluentd"><path d="M461.28,481.1885 C471.09,481.1885 480.91,481.1885 490.72,481.1885 " fill="none" id="loki-backto-fluentd" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="456.14,481.1885,465.14,485.1885,461.14,481.1885,465.14,477.1885,456.14,481.1885" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[3fdc2fb758ab6ccb3fbd7087c256e943]
+link loki to grafana--><g id="link_loki_grafana"><path d="M414.22,545.3285 C433.29,564.2285 455.08,584.9785 475.79,603.9785 " fill="none" id="loki-to-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="479.65,607.5085,475.6916,598.4901,475.9542,604.1409,470.3034,604.4034,479.65,607.5085" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[4b590bb5f179e265506513e580afffa5]
+reverse link loki to grafana--><g id="link_loki_grafana"><path d="M443.09,548.8785 C463.92,567.9985 485.64,588.7385 504.47,607.5085 " fill="none" id="loki-backto-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="439.21,545.3285,443.151,554.3545,442.8993,548.7032,448.5506,548.4515,439.21,545.3285" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[dfe812c695ab960feed5c5d028278b5e]
+link grafanaui to grafana--><g id="link_grafanaui_grafana"><path d="M869.89,674.7885 C792.82,716.6685 715.75,726.7785 638.67,705.1085 " fill="none" id="grafanaui-to-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="633.6,703.6385,641.12,709.9985,638.4,705.0385,643.36,702.3185,633.6,703.6385" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[6fd5d1c25ebbcdb44a9291efbab13d94]
+reverse link grafanaui to grafana--><g id="link_grafanaui_grafana"><path d="M865.28,662.1185 C788.05,621.4285 710.82,612.6385 633.6,635.7385 " fill="none" id="grafanaui-backto-grafana" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="869.89,664.5885,863.8351,656.8207,865.4794,662.2333,860.0668,663.8776,869.89,664.5885" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[d44fe36de45c3554f26956fd46f44ca2]
+link user to grafanaui--><g id="link_user_grafanaui"><path d="M872.51,519.9285 C867.44,562.0385 866.86,627.8885 872.44,655.6485 " fill="none" id="user-to-grafanaui" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="873.64,660.6785,875.4454,650.9965,872.4813,655.8146,867.6632,652.8505,873.64,660.6785" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[2c046a57a8f0273431cb72f7fda4e6da]
+reverse link user to grafanaui--><g id="link_user_grafanaui"><path d="M894.42,525.0385 C897.05,570.1185 893.35,637.6685 885.12,660.6785 " fill="none" id="user-backto-grafanaui" style="stroke:#333333;stroke-width:1.0;"/><polygon fill="#333333" points="894.09,519.9285,890.6625,529.1617,894.4037,524.9186,898.6467,528.6598,894.09,519.9285" style="stroke:#333333;stroke-width:1.0;"/></g><!--MD5=[15d013e51b3d116bc67611a87943ae4f]
 @startuml
 !theme plain
 !include <logos/mariadb>
@@ -60,6 +60,345 @@ skinparam rectangle {
     RoundCorner<< round50 >> 50
 }
 
+sprite $logspout [128x84/16] {
+BD55555753544676587378B98AFB196DC7768AAEF9A578AFF56ABFFCC9797DFFBDDBDBFFD7778FFD3976FFFAAF7788DFEC692AFFF89966578FFD58B18918FFE9
+FFCCCCCDCBBCBDCBBDEACBEEDEFF997BA889ACEAC6A8A7CAD9A6BFF9AAAB8DBC7C7CBAEBE7A77ECD9874FFF89C6777DCE77C86EDF89C33578EDF78C64A54EFFE
+DFABAACFBACDFECBCFFEFDEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFFFEFEEDEDEDDEDECFECECEAEDAFFE89A7D8AD8C47A5AA8D46A4A73C78C35835735EFFE
+9E75436FB447F8356FC69567FE686EF88FF8B8CFE9CAEDEFFCFDFDFFFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEEEFEDFDDEBCDADC9DFFFE
+7A65536FD735B6388CC65385EA255CF86FE5469FE79794DFE797A8BFF8AA9FFDAFAC9DFFCAE9C99FFE9EBBFBBFFC9CDBFFFDCFDEFFFECEDEFFFFEFFFFFFFEEFF
+DDBBBBCFFDB99A8CC99586678A465EF869C665ABC5A6A2CDD7A889AFF7999FFFBC6DBDFFE9D78D8FFF7DA8D4BFFC6875DFF94A4AFFF64B54EFF83976EFFE75C7
+EFBCCFFCFEDEFFEFFEFFFFFFFFEFEFFDEDECECECD9B9DADBC8C9D9DFF9BABDCD8D8B9CCDD8E7ACBECF8DB9A59FFF8C73CFFD4C8BFFF74C93EFFB5895EFFC3398
+BE644DD68459F95675CF988A9DFCACCFFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFEFDEEEDBDBFDEDBE7B98D7BFFE9E77D7E74B49D7D84864C8E73B95EFFD4299
+79433CD64247D94454AF95642AF8585FE5C5CFC7FFB9CAC8EFDBECFFFDFDFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFEFDDEACEBF9AD7AD7D65A64CFFC4793
+CB9A9ED7977986566578554639AA585FF791BEE7FFD8D9E7EFD8E8FFD7BAAFF9BD8EFF9EDAB9EFFECC9EFFDDFCDEEFFFFEFEFFFFFFFFFFFFFFFFFFFFFFFFDFFD
+FFCDCDEFFEEFFEEEEDEDCBBCBDBBA9AFE6B7B9C5CAB6B796DCD8E8FFD7CADFFC9E9EFFAE79B8EFF87D7CFF98D4B88FFF95A56FFF8AE7AC7CFFEACEABEBDFFFFD
+BD66558F866AFA88CFCCCDCEFFFFFFFFFFFFFFFEFFEDDCDCEDDADAEFEAC8DCEBAC9DBF8C88C8CCE57F8FFFD9E89C9FFFD4CB7FFF88E65B38FFD38B17827FFF83
+7B66436F7347FA339F96444AFC596FE699B7EFDCFCEDFFFFFFFFFFFFFFFFFFFFFFFFEFDEEDDBFBFCAEBFFF87B6A86E8E94D8CDBF88E75D49EEF89C56627FFF54
+BB8887AF9657874569954349D7345FF797D6DFB89686FF9AABA8FFFBECFFFDFDEFFFFFFFFFFFFFFFFFFFFFFEFEFDCFCFBBFCFC9E67A4974B79C36946628FFF72
+FFCDDEFFEEDEDDCCCBB99A8B9B676FC395C8DBC87584DFCBCBE9FFB6D9FFF9E7DACFFD8C8DFFCBFDEEBFFFEFFEFFFFFFFFFFFFFFFFFFFEEFEEEBCD9DC8DFFF86
+ED6566AF988DFBCBCDFFEFEFFFFFFFFDDCEEECB9C9AACC9999DBDCB6D9FFFAEBACDFFF9B8CFFD9F5B88FFE6CC6B5AFFF7AC7EFFEADDBFFFFDEFFFFFFFFFFFFFF
+9945427E8438F77466FF664BF999BFECFDFEFFFFFFFFFFFFEEFFEEFCDBFFE9DACABDCD8BAADED8C3A67EFF9D65B69FFC56C4AFFC5784BFFB3894BFFFB6B99FFF
+A96666785549F76566CD767CF5586FD69465FF8899FFDBCEFFEFFFFFFFFFFFFFFFFFFFEFCFDEC9F9DA9D9E5A86A88FFE55C5BEFE68C5DFFB48629FFE44934EFF
+DEDCDEEECCCEFA999799699B86566AD6A344EF56A8FF598CFF8DBAAAFFFBEBFFFDFEEFFFFFFFFFFFFFFFFFDEFDEAEFFD8D96D7C94834D7CA6653ACCB25734EFF
+77557FB999BFFDEDFFFFEFFFEDDBDBC8A9A7FF7759BD589CEFAC6997FFA7B7EFF9E8CBBFFE9FABFFFCFFEFFFFFFFFFFFFFFFFFFFDFCBEBEC7C96E88E55936FFF
+64357FA5555EF674BF787CFBBEDDFFFFFFFFFFFFDDDECC9CBD8BA9A9DDB7B8EFFAEBADBFFF9E7AFFE6EA7FFF7CC7D9BFFFCEEBEFFFFFFFFFFFFFFFFFFEFCEFFF
+7769BFA55549B7738D4669F955769FB897ACFFBDDEFFFFFFFFFFFFEFEEFDECFFE9CABAAEBF7DB7EEF8D56FFF9C89966EFF5BA3B78FFFB5B97DFFEBDFCFFFFFFF
+EEEFFFDBBB9AA7879866479753678FD79699FF865BFE7C7CFFAECEFFEFFFFFFFFFFFFEEFEEBDBCDBD6CA7D9F6A87B65FFF9BC6AB8FFFD4854DFFA37939FFF75C
+FFFFFFB9ABCDDFFFFFEECDCAAB97BFB58578BD8789EF8E9CFD597AFF9AAABBFFEDFDFFEFFFFFFFFFFFFFEFEFBCDAE8CFFE4895976E9EB48A4BEF826843EFFA48
+FFFFFFA333566EFFFFFFFFFFFFFFFFFEEDCCCD9B8B9D6C9EBC5B79FFBBCADAFFEAD8C9BFFB9E9DFFECFEFFFFFFFFFFFFFFEEECEAAE9E96B55D5C828A15AAE65C
+FFFFFF9443465EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFFDEBDAEFE7B8B8BEDEAC8B7AFFC8A9AFFB7B6E97FFFAAD9EFFFDFFEFFFFFFFFFFEFDEEAEA1CB8C45C
+FFEFFFCBAA988FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEDEEEDADAE9BCDC898BEFC8F9EC8FFE66C5AFFC4A66EFFA9E8AEBEFFFEFFE2DFFFFEF
+9979DFDDFEDDEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEDFBFBD88C6B58FFF74D6BFFF6986EFF95D74837FFD54B61AFFECFF
+33237D667787BFFFB9FFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEDDFFF9CA6D8DA5985CAFB6FA7827FFFC4B618FFB3CB
+65447E732367AFB946FE68ABEDFBADFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFECFABE8E74D9C828B8FA6D83DFFF6CB
+EEDCDFC977668FC949FB7523649698ABBDBAFFFFFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFEFDAEC9FBCB46EFFA29A
+9AACEECEFFFEEFFFBCFBCA644589B654467A46789A9EDFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFFFC8BB
+43438E65799ACDBBFFFFEFFEDCCEA887459C38473B98676EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+76537E5223333369ACFD7889DADEFEFF9BFEC96B8978766EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+CDDCDFB8776543577CFC88668478777AAFFEDEDFFFFFFA7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+4AE99ABDFEDDDCBAADFC6475857786687EFC5B7A9BBDDEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+39C43335978899BCDFFECDDBB99787675CBB66475A76798ACFFECEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+8DC54454355464345AF99ACCFFFFFFEEBDBA7B6766867B8BCFFBA89889BEFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+EFECBBABC865643349F642337B779AADDFFFFFFFECCBB9A9DFFBC9A7A66EFA7BBFADCCEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+99ACEFCCEEEEDBBA8CF64386536685473DF89ABDEFFFFFFCFFFBCBB9D97FFA8ACBC8BB89CAFFFBCDEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+4444AC545779BBCDDFFDDCD9DC8666653CF5278455999BCFFEFFFFFFFFFFFCBB9AA9BD8AEAFFFAB67ADEDEDEDDFEDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+76539C63233257745779BDDEFFFEDDAB8EF7578448585359C8EACCCCEEFFFFFFFFEFDDCCBBFFF9C858575788B5C97EFFCADDEEFFFFFFFFFFFFFFFFFFFFFFFFFF
+EEDCDEA76643687443365478DDFFEEFFFFFFECBA97877466A9C4A6A9A9BFFBDEEFFFFFFFEEFFFCCBADDC69AAA889ADFE7857544AFFFFEDFEFFFFFFFFFFFFFFFF
+99ACFECFFEDDB99866545288B9FF858BCEEFFDFFFFFFFEEFE8C8A7999AAFF8999B9DFFBDFFFEFFFFFFFFEEEAA9997FFD795A898746EFB3654BD8AFFFECFFFFFF
+4444BC679BCDFEDFFEDBCB98BAFF7423455777C9FFFCEFFFFFFFFEEBEACFF898AC9A9ABBBBB9D9DFFFEFFFFFFFFFFFFFA9C6A97C66EFB2162678589B64B66EFF
+8764AC323444677BCFFDCDEDFFFFB775574568C7EFB75678EFFEFEFFFFFFFEEBBBADDCAB89BB9BBFF979A9BBEFFFFFFFFFFFFECFFFFF9552335CB31579AA5D8A
+CCCCEE97655424698EF8856999BECFFABEDA5797FFAA7268AFF9CAF8CFFFFFFFFFFFFFDEBBCAC8DFFA8D7B57EFB7779EBCEEFFFFFFFFFEDBC9959CBB55A47F9C
+5567CEBCDDCBA9788FF995877669486AAFFEDFFEFFFA9967CFF8E9E7EFC9CDEFFFFFEFFFFFFFFEFFF99D7B66FFCB96587885AEFC7DFFFFFFFFFFFFFFCBC58E6C
+433456557889BDFFEFFA8786766954356FF697CBCCFFFFFFFFFAB8C8FFA69899ABACBFEFEDFFFFFFFFFFEEDCFFD79567867563678AFFFFFFFFFFFFFFFFFFFFEF
+88877545325646FA8ABCEFFEDDAA78676BB6677484A8FADDFFFFFFFEFFCAB7C99A9DBD8B979CDCFFFFFFFFFFFFFEFDDB8A79D8977AFFFFFFFFFFFFFFFFFFFFFF
+EFEDFD99867965E843337C98ADFFFFFEDCD8A68464B9A4C9FFE9BCEEFFFFEBFEEC8BAB8AA779CCB7DFFBCFAFFFFFFFFFFFFFFFFC8EFFFFFFFFFFFFFFFFFFFFFF
+89ACFEDFFEEEBBF84376536677F878ADEFFFFFFCCAB7A5CAFFDA997679CFEEFFFFEFFFEFCBBAA9A9CFF89B9D7ADADFFFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+4444CB68ACDEFFEEDCD9CB5667F716744598ACEFFFFFFEBBFFDAA88984CFB7BAFBEEEFFFFFFFFEEDDFE69B7C8887AFFE8FFFEDEFFFFFFFFFFFFFFFFFFFFFFFFF
+A875CA324445788DEFFEFFEDBDFA56643647326BA7DBDDFFFFECEDBDB8EFB7ABCB9AB99CBFFFFFFFFFE9EEBCB995DFFD9FFF75877C9DDDFFFECEFFFFFFFFFFFF
+CEEDFE987653257A9FF7879CCEFFFDCA96764243977577889AFFFFFFFFFFDBB99A9BE8AFBFFF9AABEFFFFFFFFFC8FFFDAFFF76A6B52645CFFA16EEF9CFEEFFFF
+6DB89ABEFDCBA969AFE89678587A8CDEFFFEECEE77856667D8FF7AABEEFFFFFFFEFDCBBCBFFFBD77AACADBDCDFEEFFFFFFFF93B7A95957AFFD8B73DA9F7CEEFF
+7D933348B99BCEEEEFF86667677955569FEACDFFFFFDBB9ACCFF576987DECAFFFEFFFFFDDFFF9B97B88598AA6C89FFFCDEFFFEFFFFDB39FFFFFD32BBAF7C8559
+DFB667654346767DFCEDEECB99685646AFB38598DBDEFFFFFFFE99689887AAA9C9DAEFFFFFFFFFFEFFE8BAA999A9EFC7768779FFFFFFDFFFFFFF97A56B59B364
+EFFEDDCDB666633CD55579FFDFEEDCB6A9B3B8C557889ABEFFFFFFEDCCFEB9A7BBABBFFAACDCEFFFFFFFFFDCBB9AFFBA97B87689CFFACCCEFFFFFFFFEDAAE7D8
+789BFECDFEDCA97DC5435468687FFEFFFFECEC976679499DFFAABDEFFFFFFEDCDAD9CFFBAC997AFFBCDEFFFFFFFFFFF9AA6C7C738FF72464E86DFFFCFFFFFFFF
+6545DA5479ACDEEFEA999766595EC4679BCFFFFFEC8A899EFFAB98669AFFEFFFFFFEFFFABCAB7BFFAA77C9BCBFFFFFFFFFEFACFEEFF6455379B77AA5AA6CFFFF
+CB88EA634434898ABCEEEEFC786ED258624688ACFFFFFFAFFF9B896A37FF79ADEDFFFFFFFFEDCDFFAA869BA96ACE99FFFFFFFFFFFFFBB66757A8347A9D7ACAF7
+EEFFFEB986458A5356679BCFFFEFF986635656239C8AADDFFFDEDDAD79FE78ADAAAAABDDFFFFFFFFEDBCA9979A58AAEFFFFFFFFFFFFFFFFFEBAEED95A75ECAC5
+779BFDDFFEDCA9755544457DCFFFEFFEDC988644453A885B7ECEFFFFFFFEAA889A8EB7DAEFFDCEFFFFFFFEFCDFED88FFFFFFFFFFFFFFFFFFFFFFFFFCE87D9AD5
+6646E968ACDFFEEECA98768C8FFA69CEFFFFFFEDFD675B79795DFB9DDFFFFFFEECDAA9DBFFFDA98AEFFFFFFFFFFFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFB
+DCAAF943555789BFFFFEED9CAFF8423468BB9DEFFFFEBC9B785CFA585A7CFFDFFFFFFFDAFFFBBA798A8AB9CBFECFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ADDDFEBA8764369ADFD99BCFEFFC765462458C7EFEADFFFFEFBFF9776A788A9ADECDFEFFFFFEDCACDB78BAD7B98EFFCCEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+57888ABCDDDBA889DFC976787ADEEFA9BA746A6EF974568FFFFFFFFCAA8BAA9A79AAAAFFFEFFFFFFFFDCD9999A9DFD8878789FFFFFFFFFFFFFFFFFFFFFFFFFFF
+9975346779FEDEEEFFC85868679576BBFFE9CCAFFA85257BFF9CBFCFFFFFFFBC8AA9AAEFD8ABBCEFFFFFFFEDDCAFFD9A6C8869ADFFCDEEFFFFFFFFFFFFFFFFFF
+FFDB877655DB6779DFECCC9976636564EF8CBEEFFFCA956DFD8BAB4EFEFFFFFFFFDECAFFD9CAB78EFDBCDFFFFFFFFFBAB7C9B937FF84576FBBFFFFFFFFFFFFFF
+CDEFFEDBA9EA53446989BFFFFDC99674BE8939698BCFFFEFFE898A9FF77ACDEFFFFFFFFFDBD9C87FFCB879C9CCEFFFFFFFFBCFDDFF84563A879CED7DDBFFFFFF
+677BFCACEEFDA89775467DF89BDFFFEDBB7739675A6A7BDFFFEEDBAFF658696A9C9EFFFFFFFFFDCFFD9978AAB78DEE9DFFFFFFFFFFAA54659E82589AA5BFEFCC
+8858E954789CDEEDEE986CF4366579DEFFEDBB695B865AAFFDADEFFFFDC97C688AAE9BC8DFFDFFFFFFDDBBA896A769AAFFFFFFFFFFFFFEDB97CAA88AC7DA9D66
+EECDFA745436999ACEEECEF86662454568FFDFFFDEDA69AFFB97778BDFFDDFEE798A77A778CAEDFFFFFFFFFEEBFECB9AFFFFFFFFFFFFFFFFFFFFFD8C45EBCB98
+ACDFFEDCA757A844799BCEEFEB9765551259577BBEFFFACFFAA885644EFACDEFEDFECCB888BAD8BFFCDFCFFFFFFFFFBEFFFFFFFFFFFFFFFFFFFFFFFFECFACE66
+666BEB9BEEEDBA8668898AAEFFFFEDB977785767677ABFFFFCBBA7C54FF668BCAEDFFFFFEDCABAAFF9ACAEBDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEE
+A96AD854779BCDEDBA886AAACFF9CFFFFFFD8958546A6FD7BCEFFFFDCFE668A8A6989BBEFFFFFFEFF89C9D89A8BFFFCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FEDEFB756437A99ACEEECABACFD5458ACFFFEFECA8876FD36387BFFEFFFDDA8987DA5DADFFCCEFFFFBEEBBA999CFFEAFFFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+9BCFFEEDB868A845799BBDEFFFE7443436679CEFFFFDDFC5648567A6AEFDEFFFEEAA9BAEFFCA98BFFFFFFFFFC6EFFDBFFE87A8BEEFFFFFFFFFFFFFFFFFFFFFFF
+666BEABEFFEDBA86788968BEFFFEDB48554799AFF99EFFFEC98687688587A9BFFFFFFDAFFFAA9699BADDDDEFFEFFFEDFFE87C7B5597BFFFBBFFFFFFFFFFFFFFF
+BA7BE6469ACEEEFEBA8769B9DFEAEFDFED5677AFC76356CFFFFFFFE89488889FFA9CEEFFFFDCB9CBA79AAC8EAAFFFFFFFF96C7C76988EFF63DDFDAFFEFFFFFFF
+CDEFFA7766558ADEFFEDCABADFC678ADEFDEFCEFE762378FF9BAFEFFFDCAB89FF979789CFFFFFFFFFBCCBBAABAEFE9BCEFFFFFFEC949FFFEDC38E7FB9FFFFFFF
+79EDCDDDCA8578BBFFABBDEEFFD76755668ADFFFFECA75AFF6B7D3BFFFFFFEEFF88B995BFD9ABDFFFFFFDCBBA9FFBB97A77AFFFFFCCFFFFFF936E8F99C7ACEFF
+79EA678BFFECB9ABFFA967A9DFFDAA655599AFE7AFFFFEFFF7C8D7EF9CFFFFFFFFFC875BFDA99AB8EFFFFFFFEEFFCA99CA97CFFFFFFFFFFFFEA962CCAE65638E
+}
+
+sprite $loki [128x118/16] {
+00000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000002310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000167630000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000067750000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000057760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000037771000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000027772000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000017773156710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000006764177730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000004675067740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000003676057750000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000002777146760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000001210000676327771000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000057640000666417763000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000057750000466506764000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000047760000366605665000000000346300000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000027771000266613676000000000667500000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000017762000166622676100000000477600000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000134406764000056641676200002452377710000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000577715775000046650666400007763177720000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000277713676000036661566500005775067630000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000177732677100026661366600004776057650000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000067741676200016662266610003777146760000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000057750666400005664166620001776236761000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000036761566500004665066640000676316762000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000027761366600003666056650000566506663000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000016763266610002666136660000466605664000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000006664166620001666226661000267614665000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000004665066630000566416662000167622666100000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000003666156650000466506663000066631666200000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000002666136660000356604665000056651666300000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000001666226661000266613665000046660566400000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000566416662000066522666100026661466500000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000466506663000056531666200016662266610000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000366604665000045640565300006663166620000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000266613665000035650466400005664066630000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000166622666100026661356500004665056640000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000056631666200005652266610002666146650000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000046650566300005553166520001666226660000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000036660466400004555056530000565316661000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000026661356500003555045540000466405653000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000016652256610001555135550000356505654000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000005663166520001555225551000256614565000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000004665056530000555315552000166522565000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000003565045540000455405553000056531565100000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000002565135550000355504554000045540555200000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000001565225551000155513555000035550455400000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000555315552000155522555100025551355500000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000455405553000045531555200015552255510000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000355504554000045540555300005553155510000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000255513555000025550455400004554055520000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000155522555100015551355500003555045530000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000055531555200015552155510002555135540000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000045540555300004553155520001555125550000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000035550455400003554045530000555315551000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000025551355500002555045540000455405552000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000015552255510001555135540000355404553000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000004553155520000555225551000255513554000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000004554045530000454315552000155512455000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000003555045540000345404542000055421555100000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000001555135540000245403453000045530554200000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000001555225551000145513454000034540454300000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000455315541000055421455100024550344400000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000455404542000044431554100015541245400000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000255404444000034440444200004542145410000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000145513454000024440344300003443044420000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000155421454100014441244400003444044430000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000045431454100004442144410002444034440000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000034440444200004442144410001444124440000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000024440344300003443044420000444214441000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000014541244400002444034430000344304442000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000014441144400001444124440000244403443000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000004442144410000444214440000244403443000000000000000000000000000000000000123310000000000000000000000
+00000000000000000000000000000003443044420000444214441000144412444000000000000000000000000000000112334433320000000000000000000000
+00000000000000000000000000000002444034430000344304442000044421443100000000000000000000000011233433344444330000000000000000000000
+00000000000000000000000000000001444124440000244403443000034330332000000000000000000001123343344444444444430000000000000000000000
+00000000000000000000000000000000444114440000144412444000023210000000000000000000112334334444444444444444441000000000000000000000
+00000000000000000000000000000000444214441000044421343000000000000000000000001233433444444444444444444444431000000000000000000000
+00000000000000000000000000000000344304442000044320110000000000000000000123344334444444444444444444444444432000000000000000000000
+00000000000000000000000000000000244403433000011000000000000000000000001333444444444444444444444444443333332000000000000000000000
+00000000000000000000000000000000144412321000000000000000000001233310000444444444444444444444444333333322100000000000000000000000
+00000000000000000000000000000000032100000000000000000000002344334320000334444444444444444433333332210000000000000000000000000000
+00000000000000000000000000000000000000000000000000012300002344444330000234444444444444333333221000000000000000000000000000000000
+00000000000000000000000000000000000000000000001233443310001444444430000134444444433333322100000000000000000000000000000000000000
+00000000000000000000000000000000000000000100003334444320000344444441000134433333332210000000000000000000012200000000000000000000
+00000000000000000000000000000000000012333300002344444320000334444431000033333221000000000000000000001223333300000000000000000000
+00000000000000000000000000000000003443344400001344444330000234444432000022100000000000000000000122333333333310000000000000000000
+00000000000000000000000000000000003444444310000344444430000133333332000000000000000000000012233333333333333310000000000000000000
+00000000000000000000000000000000003344444320000334444431000133221000000000000000000001223333333333333333333320000000000000000000
+00000000000000000000000000000000002344444320000334333331000000000000000000000000122333333333333333333333333320000000000000000000
+00000000000000000000000000000000001344444330000233333210000000000000000000012233333333333333333333333333333330000000000000000000
+00000000000000000000000000000000000344444330000121000000000000000000000002333333333333333333333333333333333330000000000000000000
+00000000000000000000000000000000000333333330000000000000000000000122200002333333333333333333333333333333322110000000000000000000
+00000000000000000000000000000000000232210000000000000000000001233333300001333333333333333333333332333211000000000000000000000000
+00000000000000000000000000000000000000000000000000000001000003333333300001333333333333333333233321100000000000000000000000000000
+00000000000000000000000000000000000000000000000000122333200003333333310000333333333333333332110000000000000000000000000000000000
+00000000000000000000000000000000000000000000000013333333300002333333320000233333333332211000000000000000000000000000000000000000
+00000000000000000000000000000000000000001122100003333333300001333333320000223333321100000000000000000000000000000000000000000000
+00000000000000000000000000000000000012333333100003333333310001333333330000122110000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000023333333200002333333310000333333330000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000013333333300002333333320000223321100000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000003333333300001333333230000110000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000003333333310000332333210000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000002333333210000222100000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000001333333320000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000001233221000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+}
+
+sprite $fluentd [128x128/16] {
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000024444443200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000001344444445553100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000004444444444555541000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000034444444444555555310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000044444444444555555553000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000144444444444555555555410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000244444444444555555555553000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000344444444444555555555555410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000344444444444555555555555553000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000244444444444555555555555556410000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000244444444444555555555555555652000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000144444444444555555555555555566300000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000144444444444555555555555555566641000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000034444444444555555555555555566665200000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000024444444444555555555555555566666630000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000014444444444555555555555555566666664000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000004444444444555555555555555566666666520000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000002444444444555555555555555566666666663000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000001444444444555555555555555566666666667510000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000344444444555555555555555566666666666762000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000144444444555555555555555566666666666667400000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000034444444555555555555555566666666666666761000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000024444444555555555555555566666666666666678300000000000000000000000000000000000001222100000000000000000000000000
+000000000000000000034444445555555555555555666666666666666679610000000000000000000000000000001368AABBBBA8410000000000000000000000
+00000000000000000001444444555555555555555566666666666666666798400000000000000000000000000148ABBBBBBBBBBBCA3000000000000000000000
+00000000000000000000344444555555555555555566666666666666666679973000000000000000000000148ABBBBBBBBBBBBBBBBB400000000000000000000
+00000000000000000000144444555555555555555566666666666666666767999731000000000000000147ABBBBBBBBBBBBBBABBBBBB20000000000000000000
+000000000000000000000244445555555555555555666666666666666667777999986421000000123589ABBBBBBBBBBBBBB8215BBBBB80000000000000000000
+0000000000000000000000444455555555555555556666666666666666677777999999988777788999ABBBBBBBBBBBBBBBB20008BBBBB3000000000000000000
+000000000000000000000014445555555555555555666666666666666667777789999999999999999ABBBBBBBBBBBBBBBBB10007BBBBB8000000000000000000
+00000000000000000000000354555555555555555566666666666666666777777899999999999999ABBBBBBBBBBBBBBBBBB7003ABBBBBB500000000000000000
+0000000000000000000000004555555555555555556666666666666666677777778999999999999BBBBBBBBBBBBBBBBBBBBB98BBBBBBBBB60000000000000000
+000000000000000000000000154555555555555555666666666666666667777777799999999999BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9400000000000000
+0000000000000000000000000355555555555555556666666666666666677777777799999999ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB70000000000000
+000000000000000000000000004555555555555555666666666666666667777777778999999ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB4000000000000
+00000000000000000000000000055555555555555566666666666666666777777777789999ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9753221111000000000000
+0000000000000000000000000001655555555555556666666666666666677777777777999ABBBBBBBBBBBBBBBBBBBBBBBBBBBBB9520000000000000000000000
+0000000000000000000000000000375555555555556666666666666666677777777777899BBBBBBBBBBBBBBBBBBBBBBBBBBBB940000000000000000000000000
+000000000000000000000000000004765555555555666666666666666667777777777779BBBBBBBBBBBBBBBBBBBBBBBBBBBB5000000000000000000000000000
+000000000000000000000000000000686555555555666666666666666667777777777779BBBBBBBBBBBBBBBBBBBBBBBBBC920000000000000000000000000000
+000000000000000000000000000000177765555555666666666666666667777777777799ABBBBBBBBBBBBBBBBBBBBBBBC8100000000000000000000000000000
+0000000000000000000000000000000277775555556666666666666666677777777779999ABBBBBBBBBBBBBBBBBBBBCD80000000000000000000000000000000
+0000000000000000000000000000000048777665556666666666666666677777777789999ABBBBBBBBBBBBBBBBBBCCD700000000000000000000000000000000
+00000000000000000000000000000000068778776556666666666666666777777778999999ABBBBBBBBBBBABBBCCCD8000000000000000000000000000000000
+00000000000000000000000000000000027777888766666666666666666777777789999999ABBBBBBBAABBBCCCCCD80000000000000000000000000000000000
+000000000000000000000000000000000048778888877666666666666667777777999999999ABAAABBBCCCCCCCCD900000000000000000000000000000000000
+000000000000000000000000000000000007878888888887776666666666777779999999999ABBBCCCCCCCCCCCCB100000000000000000000000000000000000
+00000000000000000000000000000000000387888888888888888777777777779999999AAAAACCCCCCCCCCCCCCC3000000000000000000000000000000000000
+0000000000000000000000000000000000006888888888888888888888888889AAAAAAAAAAAACCCCCCCCCCCCCC50000000000000000000000000000000000000
+000000000000000000000000000000000000388888888888888888888888889AAAAAAAAAAAAABCCCCCCCCCCCD700000000000000000000000000000000000000
+00000000000000000000000000000000000006888888888888888888888889AAAAAAAAAAAAAAACCCCCCCCCCDA000000000000000000000000000000000000000
+0000000000000000000000000000000000000488888888888888888888889AAAAAAAAAAAAAAAACCCCCCCCCCC2000000000000000000000000000000000000000
+000000000000000000000000000000000000018888888888888888888889AAAAAAAAAAAAAAAAACCCCCCCCCD50000000000000000000000000000000000000000
+00000000000000000000000000000000000000688888888888888888889AAAAAAAAAAAAAAAAAABCCCCCCCD800000000000000000000000000000000000000000
+0000000000000000000000000000000000000058888888888888888889AAAAAAAAAAAAAAAAAAABCCCCCCCB100000000000000000000000000000000000000000
+000000000000000000000000000000000000003888888888888888889AAAAAAAAAAAAAAAAAAAABCCCCCCC3000000000000000000000000000000000000000000
+00000000000000000000000000000000000000288888888888888889AAAAAAAAAAAAAAAAAAAAABCCCCCD70000000000000000000000000000000000000000000
+0000000000000000000000000000000000000028888888888888889AAAAAAAAAAAAAAAAAAAAAABCCCCD900000000000000000000000000000000000000000000
+000000000000000000000000000000000000001888888888888889AAAAAAAAAAAAAAAAAAAAAAABCCCCB200000000000000000000000000000000000000000000
+00000000000000000000000000000000000000288888888888889AAAAAAAAAAAAAAAAAAAAAAAABCCCC4000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000028888888888889AAAAAAAAAAAAAAAAAAAAAAAAABCCD70000000000000000000000000000000000000000000000
+000000000000000000000000000000000000003888888888889AAAAAAAAAAAAAAAAAAAAAAAAAABCD900000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000588888888889AAAAAAAAAAAAAAAAAAAAAAAAAAACDB100000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000068888888889AAAAAAAAAAAAAAAAAAAAAAAAAAAACC3000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000028888888889AAAAAAAAAAAAAAAAAAAAAAAAAAAABC40000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000488888888999AAAAAAAAAAAAAAAAAAAAAAAAAAAC500000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000001788888899999AAAAAAAAAAAAAAAAAAAAAAAAAAB6000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000004888888999999AAAAAAAAAAAAAAAAAAAAAAAAAA60000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000017888889999999AAAAAAAAAAAAAAAAAAAAAAAAA500000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000068778999999999AAAAAAAAAAAAAAAAAAAAAAAA4000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000587789999999999AAAAAAAAAAAAAAAAAAAAAA930000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000004878999999999999AAAAAAAAAAAAAAAAAAAAA8200000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000058889999999999999AAAAAAAAAAAAAAAAAAAA60000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000001688999999999999999AAAAAAAAAAAAAAAAAA9400000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000037889999999999999999AAAAAAAAAAAAAAAAA71000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000002688999999999999999999AAAAAAAAAAAAAAA8300000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000368888899999999999999999AAAAAAAAAAAAA940000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000247888888899999999999999999AAAAAAAAAAA94000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000001357888888888899999999999999999AAAAAAAAA8400000000000000000000000000000000000000000000000000000000000000000000
+0000000000000013678888888888888899999999999999999AAAAAA9620000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000001356788888888888999999999999999AAAA98630000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000234678889999999999999AAA99875310000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000012334556666666544321000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+}
+
 actor "User" as user
 
 interface "Grafana UI" as grafanaui
@@ -70,17 +409,17 @@ folder "**File System**" as lfs #f5d0c4
 database "<$mariadb>\n//(grafana database)//" as mariadb #f5d0c4
 'database "<$cassandra>\n//(loki database)//" as cassandra #f5d0c4
 
-rectangle "<$grafana>\n**Grafana**\n//(UI to view the logs)//" as grafana #d4e0b6
-rectangle "**Loki**\n//(log aggregation system)//" as loki #d4e0b6
+rectangle "<$grafana>\n\n**Grafana**\n//(UI to view the logs)//" as grafana #d4e0b6
+rectangle "\n**Loki**\n//(log aggregation system)//" <<$loki*.5>> as loki #d4e0b6
 
-rectangle "**Fluentd**\n//(intermediate service used to pass logs to loki)//" as fluentd #d4e0b6
+rectangle "\n**Fluentd**\n//(intermediate service used to pass logs to loki)//" <<$fluentd*.5>> as fluentd #d4e0b6
 
 rectangle "**Source**\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
 rectangle "**Source**\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
 rectangle "**Source**\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
 
-rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers\nlabeled `service.group:primary`)//" as logspoutprimary #d4e0b6
-rectangle "**LogSpout**\n**secondary**\n//(collects logs from all containers\nlabeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
+rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers\nlabeled `service.group:primary`)//" <<$logspout>> as logspoutprimary #d4e0b6
+rectangle "**LogSpout**\n**secondary**\n//(collects logs from all containers\nlabeled `service.group:secondary`)//" <<$logspout>> as logspoutsecondary #d4e0b6
 }
 
 grafana -left-> mariadb
@@ -411,6 +750,345 @@ skinparam rectangle {
     RoundCorner<< round50 >> 50
 }
 
+sprite $logspout [128x84/16] {
+BD55555753544676587378B98AFB196DC7768AAEF9A578AFF56ABFFCC9797DFFBDDBDBFFD7778FFD3976FFFAAF7788DFEC692AFFF89966578FFD58B18918FFE9
+FFCCCCCDCBBCBDCBBDEACBEEDEFF997BA889ACEAC6A8A7CAD9A6BFF9AAAB8DBC7C7CBAEBE7A77ECD9874FFF89C6777DCE77C86EDF89C33578EDF78C64A54EFFE
+DFABAACFBACDFECBCFFEFDEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFFFEFEEDEDEDDEDECFECECEAEDAFFE89A7D8AD8C47A5AA8D46A4A73C78C35835735EFFE
+9E75436FB447F8356FC69567FE686EF88FF8B8CFE9CAEDEFFCFDFDFFFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEEEFEDFDDEBCDADC9DFFFE
+7A65536FD735B6388CC65385EA255CF86FE5469FE79794DFE797A8BFF8AA9FFDAFAC9DFFCAE9C99FFE9EBBFBBFFC9CDBFFFDCFDEFFFECEDEFFFFEFFFFFFFEEFF
+DDBBBBCFFDB99A8CC99586678A465EF869C665ABC5A6A2CDD7A889AFF7999FFFBC6DBDFFE9D78D8FFF7DA8D4BFFC6875DFF94A4AFFF64B54EFF83976EFFE75C7
+EFBCCFFCFEDEFFEFFEFFFFFFFFEFEFFDEDECECECD9B9DADBC8C9D9DFF9BABDCD8D8B9CCDD8E7ACBECF8DB9A59FFF8C73CFFD4C8BFFF74C93EFFB5895EFFC3398
+BE644DD68459F95675CF988A9DFCACCFFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFEFDEEEDBDBFDEDBE7B98D7BFFE9E77D7E74B49D7D84864C8E73B95EFFD4299
+79433CD64247D94454AF95642AF8585FE5C5CFC7FFB9CAC8EFDBECFFFDFDFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFEFDDEACEBF9AD7AD7D65A64CFFC4793
+CB9A9ED7977986566578554639AA585FF791BEE7FFD8D9E7EFD8E8FFD7BAAFF9BD8EFF9EDAB9EFFECC9EFFDDFCDEEFFFFEFEFFFFFFFFFFFFFFFFFFFFFFFFDFFD
+FFCDCDEFFEEFFEEEEDEDCBBCBDBBA9AFE6B7B9C5CAB6B796DCD8E8FFD7CADFFC9E9EFFAE79B8EFF87D7CFF98D4B88FFF95A56FFF8AE7AC7CFFEACEABEBDFFFFD
+BD66558F866AFA88CFCCCDCEFFFFFFFFFFFFFFFEFFEDDCDCEDDADAEFEAC8DCEBAC9DBF8C88C8CCE57F8FFFD9E89C9FFFD4CB7FFF88E65B38FFD38B17827FFF83
+7B66436F7347FA339F96444AFC596FE699B7EFDCFCEDFFFFFFFFFFFFFFFFFFFFFFFFEFDEEDDBFBFCAEBFFF87B6A86E8E94D8CDBF88E75D49EEF89C56627FFF54
+BB8887AF9657874569954349D7345FF797D6DFB89686FF9AABA8FFFBECFFFDFDEFFFFFFFFFFFFFFFFFFFFFFEFEFDCFCFBBFCFC9E67A4974B79C36946628FFF72
+FFCDDEFFEEDEDDCCCBB99A8B9B676FC395C8DBC87584DFCBCBE9FFB6D9FFF9E7DACFFD8C8DFFCBFDEEBFFFEFFEFFFFFFFFFFFFFFFFFFFEEFEEEBCD9DC8DFFF86
+ED6566AF988DFBCBCDFFEFEFFFFFFFFDDCEEECB9C9AACC9999DBDCB6D9FFFAEBACDFFF9B8CFFD9F5B88FFE6CC6B5AFFF7AC7EFFEADDBFFFFDEFFFFFFFFFFFFFF
+9945427E8438F77466FF664BF999BFECFDFEFFFFFFFFFFFFEEFFEEFCDBFFE9DACABDCD8BAADED8C3A67EFF9D65B69FFC56C4AFFC5784BFFB3894BFFFB6B99FFF
+A96666785549F76566CD767CF5586FD69465FF8899FFDBCEFFEFFFFFFFFFFFFFFFFFFFEFCFDEC9F9DA9D9E5A86A88FFE55C5BEFE68C5DFFB48629FFE44934EFF
+DEDCDEEECCCEFA999799699B86566AD6A344EF56A8FF598CFF8DBAAAFFFBEBFFFDFEEFFFFFFFFFFFFFFFFFDEFDEAEFFD8D96D7C94834D7CA6653ACCB25734EFF
+77557FB999BFFDEDFFFFEFFFEDDBDBC8A9A7FF7759BD589CEFAC6997FFA7B7EFF9E8CBBFFE9FABFFFCFFEFFFFFFFFFFFFFFFFFFFDFCBEBEC7C96E88E55936FFF
+64357FA5555EF674BF787CFBBEDDFFFFFFFFFFFFDDDECC9CBD8BA9A9DDB7B8EFFAEBADBFFF9E7AFFE6EA7FFF7CC7D9BFFFCEEBEFFFFFFFFFFFFFFFFFFEFCEFFF
+7769BFA55549B7738D4669F955769FB897ACFFBDDEFFFFFFFFFFFFEFEEFDECFFE9CABAAEBF7DB7EEF8D56FFF9C89966EFF5BA3B78FFFB5B97DFFEBDFCFFFFFFF
+EEEFFFDBBB9AA7879866479753678FD79699FF865BFE7C7CFFAECEFFEFFFFFFFFFFFFEEFEEBDBCDBD6CA7D9F6A87B65FFF9BC6AB8FFFD4854DFFA37939FFF75C
+FFFFFFB9ABCDDFFFFFEECDCAAB97BFB58578BD8789EF8E9CFD597AFF9AAABBFFEDFDFFEFFFFFFFFFFFFFEFEFBCDAE8CFFE4895976E9EB48A4BEF826843EFFA48
+FFFFFFA333566EFFFFFFFFFFFFFFFFFEEDCCCD9B8B9D6C9EBC5B79FFBBCADAFFEAD8C9BFFB9E9DFFECFEFFFFFFFFFFFFFFEEECEAAE9E96B55D5C828A15AAE65C
+FFFFFF9443465EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFFDEBDAEFE7B8B8BEDEAC8B7AFFC8A9AFFB7B6E97FFFAAD9EFFFDFFEFFFFFFFFFFEFDEEAEA1CB8C45C
+FFEFFFCBAA988FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEDEEEDADAE9BCDC898BEFC8F9EC8FFE66C5AFFC4A66EFFA9E8AEBEFFFEFFE2DFFFFEF
+9979DFDDFEDDEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEDFBFBD88C6B58FFF74D6BFFF6986EFF95D74837FFD54B61AFFECFF
+33237D667787BFFFB9FFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEDDFFF9CA6D8DA5985CAFB6FA7827FFFC4B618FFB3CB
+65447E732367AFB946FE68ABEDFBADFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFECFABE8E74D9C828B8FA6D83DFFF6CB
+EEDCDFC977668FC949FB7523649698ABBDBAFFFFFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFEFDAEC9FBCB46EFFA29A
+9AACEECEFFFEEFFFBCFBCA644589B654467A46789A9EDFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFFFC8BB
+43438E65799ACDBBFFFFEFFEDCCEA887459C38473B98676EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+76537E5223333369ACFD7889DADEFEFF9BFEC96B8978766EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+CDDCDFB8776543577CFC88668478777AAFFEDEDFFFFFFA7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+4AE99ABDFEDDDCBAADFC6475857786687EFC5B7A9BBDDEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+39C43335978899BCDFFECDDBB99787675CBB66475A76798ACFFECEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+8DC54454355464345AF99ACCFFFFFFEEBDBA7B6766867B8BCFFBA89889BEFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+EFECBBABC865643349F642337B779AADDFFFFFFFECCBB9A9DFFBC9A7A66EFA7BBFADCCEEEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+99ACEFCCEEEEDBBA8CF64386536685473DF89ABDEFFFFFFCFFFBCBB9D97FFA8ACBC8BB89CAFFFBCDEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+4444AC545779BBCDDFFDDCD9DC8666653CF5278455999BCFFEFFFFFFFFFFFCBB9AA9BD8AEAFFFAB67ADEDEDEDDFEDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+76539C63233257745779BDDEFFFEDDAB8EF7578448585359C8EACCCCEEFFFFFFFFEFDDCCBBFFF9C858575788B5C97EFFCADDEEFFFFFFFFFFFFFFFFFFFFFFFFFF
+EEDCDEA76643687443365478DDFFEEFFFFFFECBA97877466A9C4A6A9A9BFFBDEEFFFFFFFEEFFFCCBADDC69AAA889ADFE7857544AFFFFEDFEFFFFFFFFFFFFFFFF
+99ACFECFFEDDB99866545288B9FF858BCEEFFDFFFFFFFEEFE8C8A7999AAFF8999B9DFFBDFFFEFFFFFFFFEEEAA9997FFD795A898746EFB3654BD8AFFFECFFFFFF
+4444BC679BCDFEDFFEDBCB98BAFF7423455777C9FFFCEFFFFFFFFEEBEACFF898AC9A9ABBBBB9D9DFFFEFFFFFFFFFFFFFA9C6A97C66EFB2162678589B64B66EFF
+8764AC323444677BCFFDCDEDFFFFB775574568C7EFB75678EFFEFEFFFFFFFEEBBBADDCAB89BB9BBFF979A9BBEFFFFFFFFFFFFECFFFFF9552335CB31579AA5D8A
+CCCCEE97655424698EF8856999BECFFABEDA5797FFAA7268AFF9CAF8CFFFFFFFFFFFFFDEBBCAC8DFFA8D7B57EFB7779EBCEEFFFFFFFFFEDBC9959CBB55A47F9C
+5567CEBCDDCBA9788FF995877669486AAFFEDFFEFFFA9967CFF8E9E7EFC9CDEFFFFFEFFFFFFFFEFFF99D7B66FFCB96587885AEFC7DFFFFFFFFFFFFFFCBC58E6C
+433456557889BDFFEFFA8786766954356FF697CBCCFFFFFFFFFAB8C8FFA69899ABACBFEFEDFFFFFFFFFFEEDCFFD79567867563678AFFFFFFFFFFFFFFFFFFFFEF
+88877545325646FA8ABCEFFEDDAA78676BB6677484A8FADDFFFFFFFEFFCAB7C99A9DBD8B979CDCFFFFFFFFFFFFFEFDDB8A79D8977AFFFFFFFFFFFFFFFFFFFFFF
+EFEDFD99867965E843337C98ADFFFFFEDCD8A68464B9A4C9FFE9BCEEFFFFEBFEEC8BAB8AA779CCB7DFFBCFAFFFFFFFFFFFFFFFFC8EFFFFFFFFFFFFFFFFFFFFFF
+89ACFEDFFEEEBBF84376536677F878ADEFFFFFFCCAB7A5CAFFDA997679CFEEFFFFEFFFEFCBBAA9A9CFF89B9D7ADADFFFDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+4444CB68ACDEFFEEDCD9CB5667F716744598ACEFFFFFFEBBFFDAA88984CFB7BAFBEEEFFFFFFFFEEDDFE69B7C8887AFFE8FFFEDEFFFFFFFFFFFFFFFFFFFFFFFFF
+A875CA324445788DEFFEFFEDBDFA56643647326BA7DBDDFFFFECEDBDB8EFB7ABCB9AB99CBFFFFFFFFFE9EEBCB995DFFD9FFF75877C9DDDFFFECEFFFFFFFFFFFF
+CEEDFE987653257A9FF7879CCEFFFDCA96764243977577889AFFFFFFFFFFDBB99A9BE8AFBFFF9AABEFFFFFFFFFC8FFFDAFFF76A6B52645CFFA16EEF9CFEEFFFF
+6DB89ABEFDCBA969AFE89678587A8CDEFFFEECEE77856667D8FF7AABEEFFFFFFFEFDCBBCBFFFBD77AACADBDCDFEEFFFFFFFF93B7A95957AFFD8B73DA9F7CEEFF
+7D933348B99BCEEEEFF86667677955569FEACDFFFFFDBB9ACCFF576987DECAFFFEFFFFFDDFFF9B97B88598AA6C89FFFCDEFFFEFFFFDB39FFFFFD32BBAF7C8559
+DFB667654346767DFCEDEECB99685646AFB38598DBDEFFFFFFFE99689887AAA9C9DAEFFFFFFFFFFEFFE8BAA999A9EFC7768779FFFFFFDFFFFFFF97A56B59B364
+EFFEDDCDB666633CD55579FFDFEEDCB6A9B3B8C557889ABEFFFFFFEDCCFEB9A7BBABBFFAACDCEFFFFFFFFFDCBB9AFFBA97B87689CFFACCCEFFFFFFFFEDAAE7D8
+789BFECDFEDCA97DC5435468687FFEFFFFECEC976679499DFFAABDEFFFFFFEDCDAD9CFFBAC997AFFBCDEFFFFFFFFFFF9AA6C7C738FF72464E86DFFFCFFFFFFFF
+6545DA5479ACDEEFEA999766595EC4679BCFFFFFEC8A899EFFAB98669AFFEFFFFFFEFFFABCAB7BFFAA77C9BCBFFFFFFFFFEFACFEEFF6455379B77AA5AA6CFFFF
+CB88EA634434898ABCEEEEFC786ED258624688ACFFFFFFAFFF9B896A37FF79ADEDFFFFFFFFEDCDFFAA869BA96ACE99FFFFFFFFFFFFFBB66757A8347A9D7ACAF7
+EEFFFEB986458A5356679BCFFFEFF986635656239C8AADDFFFDEDDAD79FE78ADAAAAABDDFFFFFFFFEDBCA9979A58AAEFFFFFFFFFFFFFFFFFEBAEED95A75ECAC5
+779BFDDFFEDCA9755544457DCFFFEFFEDC988644453A885B7ECEFFFFFFFEAA889A8EB7DAEFFDCEFFFFFFFEFCDFED88FFFFFFFFFFFFFFFFFFFFFFFFFCE87D9AD5
+6646E968ACDFFEEECA98768C8FFA69CEFFFFFFEDFD675B79795DFB9DDFFFFFFEECDAA9DBFFFDA98AEFFFFFFFFFFFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEEFB
+DCAAF943555789BFFFFEED9CAFF8423468BB9DEFFFFEBC9B785CFA585A7CFFDFFFFFFFDAFFFBBA798A8AB9CBFECFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+ADDDFEBA8764369ADFD99BCFEFFC765462458C7EFEADFFFFEFBFF9776A788A9ADECDFEFFFFFEDCACDB78BAD7B98EFFCCEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+57888ABCDDDBA889DFC976787ADEEFA9BA746A6EF974568FFFFFFFFCAA8BAA9A79AAAAFFFEFFFFFFFFDCD9999A9DFD8878789FFFFFFFFFFFFFFFFFFFFFFFFFFF
+9975346779FEDEEEFFC85868679576BBFFE9CCAFFA85257BFF9CBFCFFFFFFFBC8AA9AAEFD8ABBCEFFFFFFFEDDCAFFD9A6C8869ADFFCDEEFFFFFFFFFFFFFFFFFF
+FFDB877655DB6779DFECCC9976636564EF8CBEEFFFCA956DFD8BAB4EFEFFFFFFFFDECAFFD9CAB78EFDBCDFFFFFFFFFBAB7C9B937FF84576FBBFFFFFFFFFFFFFF
+CDEFFEDBA9EA53446989BFFFFDC99674BE8939698BCFFFEFFE898A9FF77ACDEFFFFFFFFFDBD9C87FFCB879C9CCEFFFFFFFFBCFDDFF84563A879CED7DDBFFFFFF
+677BFCACEEFDA89775467DF89BDFFFEDBB7739675A6A7BDFFFEEDBAFF658696A9C9EFFFFFFFFFDCFFD9978AAB78DEE9DFFFFFFFFFFAA54659E82589AA5BFEFCC
+8858E954789CDEEDEE986CF4366579DEFFEDBB695B865AAFFDADEFFFFDC97C688AAE9BC8DFFDFFFFFFDDBBA896A769AAFFFFFFFFFFFFFEDB97CAA88AC7DA9D66
+EECDFA745436999ACEEECEF86662454568FFDFFFDEDA69AFFB97778BDFFDDFEE798A77A778CAEDFFFFFFFFFEEBFECB9AFFFFFFFFFFFFFFFFFFFFFD8C45EBCB98
+ACDFFEDCA757A844799BCEEFEB9765551259577BBEFFFACFFAA885644EFACDEFEDFECCB888BAD8BFFCDFCFFFFFFFFFBEFFFFFFFFFFFFFFFFFFFFFFFFECFACE66
+666BEB9BEEEDBA8668898AAEFFFFEDB977785767677ABFFFFCBBA7C54FF668BCAEDFFFFFEDCABAAFF9ACAEBDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEE
+A96AD854779BCDEDBA886AAACFF9CFFFFFFD8958546A6FD7BCEFFFFDCFE668A8A6989BBEFFFFFFEFF89C9D89A8BFFFCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+FEDEFB756437A99ACEEECABACFD5458ACFFFEFECA8876FD36387BFFEFFFDDA8987DA5DADFFCCEFFFFBEEBBA999CFFEAFFFEEFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+9BCFFEEDB868A845799BBDEFFFE7443436679CEFFFFDDFC5648567A6AEFDEFFFEEAA9BAEFFCA98BFFFFFFFFFC6EFFDBFFE87A8BEEFFFFFFFFFFFFFFFFFFFFFFF
+666BEABEFFEDBA86788968BEFFFEDB48554799AFF99EFFFEC98687688587A9BFFFFFFDAFFFAA9699BADDDDEFFEFFFEDFFE87C7B5597BFFFBBFFFFFFFFFFFFFFF
+BA7BE6469ACEEEFEBA8769B9DFEAEFDFED5677AFC76356CFFFFFFFE89488889FFA9CEEFFFFDCB9CBA79AAC8EAAFFFFFFFF96C7C76988EFF63DDFDAFFEFFFFFFF
+CDEFFA7766558ADEFFEDCABADFC678ADEFDEFCEFE762378FF9BAFEFFFDCAB89FF979789CFFFFFFFFFBCCBBAABAEFE9BCEFFFFFFEC949FFFEDC38E7FB9FFFFFFF
+79EDCDDDCA8578BBFFABBDEEFFD76755668ADFFFFECA75AFF6B7D3BFFFFFFEEFF88B995BFD9ABDFFFFFFDCBBA9FFBB97A77AFFFFFCCFFFFFF936E8F99C7ACEFF
+79EA678BFFECB9ABFFA967A9DFFDAA655599AFE7AFFFFEFFF7C8D7EF9CFFFFFFFFFC875BFDA99AB8EFFFFFFFEEFFCA99CA97CFFFFFFFFFFFFEA962CCAE65638E
+}
+
+sprite $loki [128x118/16] {
+00000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000002310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000167630000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000067750000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000057760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000037771000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000027772000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000017773156710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000006764177730000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000004675067740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000003676057750000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000002777146760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000001210000676327771000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000057640000666417763000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000057750000466506764000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000047760000366605665000000000346300000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000027771000266613676000000000667500000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000017762000166622676100000000477600000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000134406764000056641676200002452377710000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000577715775000046650666400007763177720000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000277713676000036661566500005775067630000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000177732677100026661366600004776057650000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000067741676200016662266610003777146760000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000057750666400005664166620001776236761000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000036761566500004665066640000676316762000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000027761366600003666056650000566506663000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000016763266610002666136660000466605664000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000006664166620001666226661000267614665000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000004665066630000566416662000167622666100000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000003666156650000466506663000066631666200000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000002666136660000356604665000056651666300000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000001666226661000266613665000046660566400000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000566416662000066522666100026661466500000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000466506663000056531666200016662266610000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000366604665000045640565300006663166620000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000266613665000035650466400005664066630000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000166622666100026661356500004665056640000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000056631666200005652266610002666146650000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000046650566300005553166520001666226660000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000036660466400004555056530000565316661000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000026661356500003555045540000466405653000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000016652256610001555135550000356505654000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000005663166520001555225551000256614565000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000004665056530000555315552000166522565000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000003565045540000455405553000056531565100000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000002565135550000355504554000045540555200000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000001565225551000155513555000035550455400000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000555315552000155522555100025551355500000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000455405553000045531555200015552255510000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000355504554000045540555300005553155510000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000255513555000025550455400004554055520000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000155522555100015551355500003555045530000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000055531555200015552155510002555135540000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000045540555300004553155520001555125550000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000035550455400003554045530000555315551000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000025551355500002555045540000455405552000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000015552255510001555135540000355404553000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000004553155520000555225551000255513554000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000004554045530000454315552000155512455000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000003555045540000345404542000055421555100000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000001555135540000245403453000045530554200000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000001555225551000145513454000034540454300000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000455315541000055421455100024550344400000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000455404542000044431554100015541245400000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000255404444000034440444200004542145410000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000145513454000024440344300003443044420000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000155421454100014441244400003444044430000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000045431454100004442144410002444034440000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000034440444200004442144410001444124440000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000024440344300003443044420000444214441000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000014541244400002444034430000344304442000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000014441144400001444124440000244403443000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000004442144410000444214440000244403443000000000000000000000000000000000000123310000000000000000000000
+00000000000000000000000000000003443044420000444214441000144412444000000000000000000000000000000112334433320000000000000000000000
+00000000000000000000000000000002444034430000344304442000044421443100000000000000000000000011233433344444330000000000000000000000
+00000000000000000000000000000001444124440000244403443000034330332000000000000000000001123343344444444444430000000000000000000000
+00000000000000000000000000000000444114440000144412444000023210000000000000000000112334334444444444444444441000000000000000000000
+00000000000000000000000000000000444214441000044421343000000000000000000000001233433444444444444444444444431000000000000000000000
+00000000000000000000000000000000344304442000044320110000000000000000000123344334444444444444444444444444432000000000000000000000
+00000000000000000000000000000000244403433000011000000000000000000000001333444444444444444444444444443333332000000000000000000000
+00000000000000000000000000000000144412321000000000000000000001233310000444444444444444444444444333333322100000000000000000000000
+00000000000000000000000000000000032100000000000000000000002344334320000334444444444444444433333332210000000000000000000000000000
+00000000000000000000000000000000000000000000000000012300002344444330000234444444444444333333221000000000000000000000000000000000
+00000000000000000000000000000000000000000000001233443310001444444430000134444444433333322100000000000000000000000000000000000000
+00000000000000000000000000000000000000000100003334444320000344444441000134433333332210000000000000000000012200000000000000000000
+00000000000000000000000000000000000012333300002344444320000334444431000033333221000000000000000000001223333300000000000000000000
+00000000000000000000000000000000003443344400001344444330000234444432000022100000000000000000000122333333333310000000000000000000
+00000000000000000000000000000000003444444310000344444430000133333332000000000000000000000012233333333333333310000000000000000000
+00000000000000000000000000000000003344444320000334444431000133221000000000000000000001223333333333333333333320000000000000000000
+00000000000000000000000000000000002344444320000334333331000000000000000000000000122333333333333333333333333320000000000000000000
+00000000000000000000000000000000001344444330000233333210000000000000000000012233333333333333333333333333333330000000000000000000
+00000000000000000000000000000000000344444330000121000000000000000000000002333333333333333333333333333333333330000000000000000000
+00000000000000000000000000000000000333333330000000000000000000000122200002333333333333333333333333333333322110000000000000000000
+00000000000000000000000000000000000232210000000000000000000001233333300001333333333333333333333332333211000000000000000000000000
+00000000000000000000000000000000000000000000000000000001000003333333300001333333333333333333233321100000000000000000000000000000
+00000000000000000000000000000000000000000000000000122333200003333333310000333333333333333332110000000000000000000000000000000000
+00000000000000000000000000000000000000000000000013333333300002333333320000233333333332211000000000000000000000000000000000000000
+00000000000000000000000000000000000000001122100003333333300001333333320000223333321100000000000000000000000000000000000000000000
+00000000000000000000000000000000000012333333100003333333310001333333330000122110000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000023333333200002333333310000333333330000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000013333333300002333333320000223321100000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000003333333300001333333230000110000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000003333333310000332333210000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000002333333210000222100000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000001333333320000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000001233221000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+}
+
+sprite $fluentd [128x128/16] {
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000024444443200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000001344444445553100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000004444444444555541000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000034444444444555555310000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000044444444444555555553000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000144444444444555555555410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000244444444444555555555553000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000344444444444555555555555410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000344444444444555555555555553000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000244444444444555555555555556410000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000244444444444555555555555555652000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000144444444444555555555555555566300000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000144444444444555555555555555566641000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000034444444444555555555555555566665200000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000024444444444555555555555555566666630000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000014444444444555555555555555566666664000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000004444444444555555555555555566666666520000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000002444444444555555555555555566666666663000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000001444444444555555555555555566666666667510000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000344444444555555555555555566666666666762000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000144444444555555555555555566666666666667400000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000034444444555555555555555566666666666666761000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000024444444555555555555555566666666666666678300000000000000000000000000000000000001222100000000000000000000000000
+000000000000000000034444445555555555555555666666666666666679610000000000000000000000000000001368AABBBBA8410000000000000000000000
+00000000000000000001444444555555555555555566666666666666666798400000000000000000000000000148ABBBBBBBBBBBCA3000000000000000000000
+00000000000000000000344444555555555555555566666666666666666679973000000000000000000000148ABBBBBBBBBBBBBBBBB400000000000000000000
+00000000000000000000144444555555555555555566666666666666666767999731000000000000000147ABBBBBBBBBBBBBBABBBBBB20000000000000000000
+000000000000000000000244445555555555555555666666666666666667777999986421000000123589ABBBBBBBBBBBBBB8215BBBBB80000000000000000000
+0000000000000000000000444455555555555555556666666666666666677777999999988777788999ABBBBBBBBBBBBBBBB20008BBBBB3000000000000000000
+000000000000000000000014445555555555555555666666666666666667777789999999999999999ABBBBBBBBBBBBBBBBB10007BBBBB8000000000000000000
+00000000000000000000000354555555555555555566666666666666666777777899999999999999ABBBBBBBBBBBBBBBBBB7003ABBBBBB500000000000000000
+0000000000000000000000004555555555555555556666666666666666677777778999999999999BBBBBBBBBBBBBBBBBBBBB98BBBBBBBBB60000000000000000
+000000000000000000000000154555555555555555666666666666666667777777799999999999BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9400000000000000
+0000000000000000000000000355555555555555556666666666666666677777777799999999ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB70000000000000
+000000000000000000000000004555555555555555666666666666666667777777778999999ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB4000000000000
+00000000000000000000000000055555555555555566666666666666666777777777789999ABBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB9753221111000000000000
+0000000000000000000000000001655555555555556666666666666666677777777777999ABBBBBBBBBBBBBBBBBBBBBBBBBBBBB9520000000000000000000000
+0000000000000000000000000000375555555555556666666666666666677777777777899BBBBBBBBBBBBBBBBBBBBBBBBBBBB940000000000000000000000000
+000000000000000000000000000004765555555555666666666666666667777777777779BBBBBBBBBBBBBBBBBBBBBBBBBBBB5000000000000000000000000000
+000000000000000000000000000000686555555555666666666666666667777777777779BBBBBBBBBBBBBBBBBBBBBBBBBC920000000000000000000000000000
+000000000000000000000000000000177765555555666666666666666667777777777799ABBBBBBBBBBBBBBBBBBBBBBBC8100000000000000000000000000000
+0000000000000000000000000000000277775555556666666666666666677777777779999ABBBBBBBBBBBBBBBBBBBBCD80000000000000000000000000000000
+0000000000000000000000000000000048777665556666666666666666677777777789999ABBBBBBBBBBBBBBBBBBCCD700000000000000000000000000000000
+00000000000000000000000000000000068778776556666666666666666777777778999999ABBBBBBBBBBBABBBCCCD8000000000000000000000000000000000
+00000000000000000000000000000000027777888766666666666666666777777789999999ABBBBBBBAABBBCCCCCD80000000000000000000000000000000000
+000000000000000000000000000000000048778888877666666666666667777777999999999ABAAABBBCCCCCCCCD900000000000000000000000000000000000
+000000000000000000000000000000000007878888888887776666666666777779999999999ABBBCCCCCCCCCCCCB100000000000000000000000000000000000
+00000000000000000000000000000000000387888888888888888777777777779999999AAAAACCCCCCCCCCCCCCC3000000000000000000000000000000000000
+0000000000000000000000000000000000006888888888888888888888888889AAAAAAAAAAAACCCCCCCCCCCCCC50000000000000000000000000000000000000
+000000000000000000000000000000000000388888888888888888888888889AAAAAAAAAAAAABCCCCCCCCCCCD700000000000000000000000000000000000000
+00000000000000000000000000000000000006888888888888888888888889AAAAAAAAAAAAAAACCCCCCCCCCDA000000000000000000000000000000000000000
+0000000000000000000000000000000000000488888888888888888888889AAAAAAAAAAAAAAAACCCCCCCCCCC2000000000000000000000000000000000000000
+000000000000000000000000000000000000018888888888888888888889AAAAAAAAAAAAAAAAACCCCCCCCCD50000000000000000000000000000000000000000
+00000000000000000000000000000000000000688888888888888888889AAAAAAAAAAAAAAAAAABCCCCCCCD800000000000000000000000000000000000000000
+0000000000000000000000000000000000000058888888888888888889AAAAAAAAAAAAAAAAAAABCCCCCCCB100000000000000000000000000000000000000000
+000000000000000000000000000000000000003888888888888888889AAAAAAAAAAAAAAAAAAAABCCCCCCC3000000000000000000000000000000000000000000
+00000000000000000000000000000000000000288888888888888889AAAAAAAAAAAAAAAAAAAAABCCCCCD70000000000000000000000000000000000000000000
+0000000000000000000000000000000000000028888888888888889AAAAAAAAAAAAAAAAAAAAAABCCCCD900000000000000000000000000000000000000000000
+000000000000000000000000000000000000001888888888888889AAAAAAAAAAAAAAAAAAAAAAABCCCCB200000000000000000000000000000000000000000000
+00000000000000000000000000000000000000288888888888889AAAAAAAAAAAAAAAAAAAAAAAABCCCC4000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000028888888888889AAAAAAAAAAAAAAAAAAAAAAAAABCCD70000000000000000000000000000000000000000000000
+000000000000000000000000000000000000003888888888889AAAAAAAAAAAAAAAAAAAAAAAAAABCD900000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000588888888889AAAAAAAAAAAAAAAAAAAAAAAAAAACDB100000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000068888888889AAAAAAAAAAAAAAAAAAAAAAAAAAAACC3000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000028888888889AAAAAAAAAAAAAAAAAAAAAAAAAAAABC40000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000488888888999AAAAAAAAAAAAAAAAAAAAAAAAAAAC500000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000001788888899999AAAAAAAAAAAAAAAAAAAAAAAAAAB6000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000004888888999999AAAAAAAAAAAAAAAAAAAAAAAAAA60000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000017888889999999AAAAAAAAAAAAAAAAAAAAAAAAA500000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000068778999999999AAAAAAAAAAAAAAAAAAAAAAAA4000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000587789999999999AAAAAAAAAAAAAAAAAAAAAA930000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000004878999999999999AAAAAAAAAAAAAAAAAAAAA8200000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000058889999999999999AAAAAAAAAAAAAAAAAAAA60000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000001688999999999999999AAAAAAAAAAAAAAAAAA9400000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000037889999999999999999AAAAAAAAAAAAAAAAA71000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000002688999999999999999999AAAAAAAAAAAAAAA8300000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000368888899999999999999999AAAAAAAAAAAAA940000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000247888888899999999999999999AAAAAAAAAAA94000000000000000000000000000000000000000000000000000000000000000000
+0000000000000000001357888888888899999999999999999AAAAAAAAA8400000000000000000000000000000000000000000000000000000000000000000000
+0000000000000013678888888888888899999999999999999AAAAAA9620000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000001356788888888888999999999999999AAAA98630000000000000000000000000000000000000000000000000000000000000000000000000
+000000000000000000000234678889999999999999AAA99875310000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000012334556666666544321000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+}
+
 actor "User" as user
 
 interface "Grafana UI" as grafanaui
@@ -420,17 +1098,17 @@ folder "**File System**" as lfs #f5d0c4
 
 database "<$mariadb>\n//(grafana database)//" as mariadb #f5d0c4
 
-rectangle "<$grafana>\n**Grafana**\n//(UI to view the logs)//" as grafana #d4e0b6
-rectangle "**Loki**\n//(log aggregation system)//" as loki #d4e0b6
+rectangle "<$grafana>\n\n**Grafana**\n//(UI to view the logs)//" as grafana #d4e0b6
+rectangle "\n**Loki**\n//(log aggregation system)//" <<$loki*.5>> as loki #d4e0b6
 
-rectangle "**Fluentd**\n//(intermediate service used to pass logs to loki)//" as fluentd #d4e0b6
+rectangle "\n**Fluentd**\n//(intermediate service used to pass logs to loki)//" <<$fluentd*.5>> as fluentd #d4e0b6
 
 rectangle "**Source**\n**primary**\n//(a source of the primary events)//" as sourceprimary <<round20>> #8abded
 rectangle "**Source**\n**secondary**\n//(a source of the secondary events)//" as sourcesecondary <<round20>> #8abded
 rectangle "**Source**\n**tertiary**\n//(a source of the tertiary events)//" as sourcetertiary <<round20>> #8abded
 
-rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers\nlabeled `service.group:primary`)//" as logspoutprimary #d4e0b6
-rectangle "**LogSpout**\n**secondary**\n//(collects logs from all containers\nlabeled `service.group:secondary`)//" as logspoutsecondary #d4e0b6
+rectangle "**LogSpout**\n**primary**\n//(collects logs from all containers\nlabeled `service.group:primary`)//" <<$logspout>> as logspoutprimary #d4e0b6
+rectangle "**LogSpout**\n**secondary**\n//(collects logs from all containers\nlabeled `service.group:secondary`)//" <<$logspout>> as logspoutsecondary #d4e0b6
 }
 
 grafana -left-> mariadb
@@ -460,9 +1138,9 @@ user <-down- grafanaui
 
 PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
 (GPL source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
 Default Encoding: UTF-8
 Language: en
-Country: US
+Country: null
 --></g></svg>
