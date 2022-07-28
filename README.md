@@ -1,4 +1,4 @@
-# Logspout Sandbox
+# Logspout Playground
 
 This repository contains a few basic **Logspout** configuration examples.
 
